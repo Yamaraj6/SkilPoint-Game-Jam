@@ -1298,7 +1298,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   idleStartTime: 0.2
-  runSpeed: 200
+  runSpeed: 500
   damping: 0.15
 --- !u!114 &114584961552041086
 MonoBehaviour:
@@ -1311,6 +1311,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 18f8f7f7b78c37a40a30f103ef6e5586, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _sound: {fileID: 0}
   _seed: {fileID: 1755522466826906, guid: 38de4e737da15ce4ab77ddfb60c968f6, type: 2}
   _verticalPower: 5
   _horizontalPower: 1
