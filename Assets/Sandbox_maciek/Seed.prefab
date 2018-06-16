@@ -100,7 +100,7 @@ Rigidbody:
   m_IsKinematic: 0
   m_Interpolate: 0
   m_Constraints: 0
-  m_CollisionDetection: 0
+  m_CollisionDetection: 2
 --- !u!114 &114853959241993998
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -113,7 +113,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _floor: {fileID: 1857448642620684, guid: c5862874295d40f4e8dd545bd650365f, type: 2}
-  _treeObject: {fileID: 1282404914761326, guid: 4089b0749726a2e45b420ac997a9880f,
+  _treeObject: {fileID: 1375055813823780, guid: 4d4f241570696b54ab5a92d601ee8244,
     type: 2}
   _growingSpeed: 2
 --- !u!135 &135919470828397122
