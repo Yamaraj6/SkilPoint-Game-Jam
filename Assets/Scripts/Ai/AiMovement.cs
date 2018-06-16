@@ -20,29 +20,40 @@ public class AiMovement : MonoBehaviour
 	Vector2 influencePosition;
 
 	Rigidbody body;
+    CharacterControllerRB groundCheck;
 
 	public void Start()
 	{
 		body = GetComponent<Rigidbody>();
+        groundCheck = GetComponentInChildren<CharacterControllerRB>();
 	}
 
 	private void Update()
 	{
 	}
 
-	private void FixedUpdate()
+    private void FixedUpdate()
 	{
 
-        if (influencePosition.sqrMagnitude > maximalMovementSpeed * maximalMovementSpeed)
+        if (groundCheck.isGrounded)
         {
-            Vector2 v = influencePosition.normalized * maximalMovementSpeed * Time.fixedDeltaTime;
-            body.AddForce(new Vector3(v.x, 0, v.y));
+            if (influencePosition.sqrMagnitude > maximalMovementSpeed * maximalMovementSpeed)
+            {
+                Vector2 v = influencePosition.normalized * maximalMovementSpeed * Time.fixedDeltaTime;
+                body.AddForce(new Vector3(v.x, 0, v.y));
+            }
+            else
+            {
+                Vector2 v = influencePosition * Time.fixedDeltaTime;
+                body.AddForce(new Vector3(v.x, 0, v.y));
+            }
         }
         else
         {
-            Vector2 v = influencePosition * Time.fixedDeltaTime;
-            body.AddForce(new Vector3(v.x, 0, v.y));
+            influencePosition = Vector2.zero;
         }
+
+        //Debug.Log((groundCheck.isGrounded));
 
 		influencePosition *= positionDamping;
 		influenceRotation *= rotationDamping;
@@ -50,7 +61,7 @@ public class AiMovement : MonoBehaviour
 
 
 
-#region Apply
+    #region Apply
     public void SetRotation(float rotation)
     {
         body.rotation = Quaternion.Euler(0, rotation, 0);
