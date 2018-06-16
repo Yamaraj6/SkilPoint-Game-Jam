@@ -188,7 +188,6 @@ GameObject:
   - component: {fileID: 136819292828990806}
   - component: {fileID: 54581877843656330}
   - component: {fileID: 114498023889790786}
-  - component: {fileID: 114509193936949332}
   - component: {fileID: 114456407758159950}
   - component: {fileID: 114382063669667296}
   - component: {fileID: 114783067307279446}
@@ -1131,26 +1130,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   activeSkillKey: 49
+  skillSpawnPoint: {fileID: 4488946527401612}
   skillParticlesPrefab: {fileID: 1003898510224590, guid: 991397b662e4e5f49926b40a252322bb,
     type: 2}
   coolDown: 2
   radius: 5
   power: 40000
---- !u!114 &114509193936949332
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1304318444530180}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 75d35f1fac85a38429f849ce67571af9, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  activeSkillKey: 50
-  skillParticlesPrefab: {fileID: 1074356348692674, guid: 31cf6e76ffe302548bac9942e083ddd5,
-    type: 2}
-  coolDown: 0
 --- !u!114 &114783067307279446
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1162,8 +1147,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 60c57a59a5bac5e49aa0dda341025e70, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  activeSkillKey: 51
-  skillParticlesPrefab: {fileID: 1422007788904342, guid: 981cd85384cadae49a3f46ff148d6376,
+  activeSkillKey: 50
+  skillSpawnPoint: {fileID: 4488946527401612}
+  skillParticlesPrefab: {fileID: 1022210032050866, guid: de70fba9b9ec0f24d8e714f27a304052,
     type: 2}
   coolDown: 0
 --- !u!136 &136819292828990806
