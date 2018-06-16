@@ -9,7 +9,7 @@ namespace SkilPoint_Game_Jam.Assets.Scripts
         [SerializeField]
         private GameObject _floor;
         [SerializeField]
-        private GameObject _treeObject;
+        private GameObject[] _treeObject;
         [SerializeField]
         private float _growingSpeed = 2;
         private GameObject _instantiatedTree;
@@ -36,8 +36,9 @@ namespace SkilPoint_Game_Jam.Assets.Scripts
 
         private void CreateTree ()
         {
-            _treeObject.transform.localScale = new Vector3 (0, 0, 0);
-            _instantiatedTree = Instantiate (_treeObject, this.transform.position, _treeObject.transform.rotation);
+            var treeVariant = Random.Range(0,3);
+            _treeObject[treeVariant].transform.localScale = new Vector3 (0, 0, 0);
+            _instantiatedTree = Instantiate (_treeObject[treeVariant], this.transform.position, _treeObject[treeVariant].transform.rotation);
         }
 
         public IEnumerator ScaleOverTime (float time)

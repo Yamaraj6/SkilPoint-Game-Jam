@@ -23,7 +23,10 @@ GameObject:
   - component: {fileID: 23389749434184646}
   - component: {fileID: 114120984489983926}
   - component: {fileID: 114881241779502134}
-  - component: {fileID: 64260055610013228}
+  - component: {fileID: 136287330358164266}
+  - component: {fileID: 114130469215710328}
+  - component: {fileID: 114789762687546250}
+  - component: {fileID: 114938677181360680}
   m_Layer: 0
   m_Name: Trunk
   m_TagString: Untagged
@@ -43,7 +46,7 @@ GameObject:
   - component: {fileID: 23760479694833352}
   - component: {fileID: 114505408041564654}
   - component: {fileID: 114515712485233394}
-  - component: {fileID: 64665545127808850}
+  - component: {fileID: 135563059977906318}
   m_Layer: 0
   m_Name: Leaves
   m_TagString: Untagged
@@ -99,7 +102,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1915919596698884}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.55, y: 0, z: -4.38}
+  m_LocalPosition: {x: -2.6873622, y: -3.5, z: 6.9332657}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 4082067506093856}
@@ -191,34 +194,6 @@ MeshFilter:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1415370227964692}
   m_Mesh: {fileID: 0}
---- !u!64 &64260055610013228
-MeshCollider:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1270458580405642}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Convex: 0
-  m_CookingOptions: 14
-  m_SkinWidth: 0.01
-  m_Mesh: {fileID: 0}
---- !u!64 &64665545127808850
-MeshCollider:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1415370227964692}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Convex: 0
-  m_CookingOptions: 14
-  m_SkinWidth: 0.01
-  m_Mesh: {fileID: 0}
 --- !u!114 &114120984489983926
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -231,6 +206,23 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _entityType: 0
+--- !u!114 &114130469215710328
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1270458580405642}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 89d0aa6eb71009e41818fffc6d4f46ab, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  type: 
+  actual: 100
+  max: 100
+  regeneration: 0
+  removeAfterDeath: 1
+  objectToRemove: {fileID: 1915919596698884}
 --- !u!114 &114505408041564654
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -3917,6 +3909,24 @@ MonoBehaviour:
   m_selectedFaces: 
   m_SelectedEdges: []
   m_selectedTriangles: 
+--- !u!114 &114789762687546250
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1270458580405642}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5a3db3dbb54a78b4d9c63366c14b75e7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  distanceModificator: 1
+  blocksVision: 1
+  type: obstacle
+  dangerFractor: 0
+  fraction: {fileID: 114938677181360680}
+  health: {fileID: 0}
+  mind: {fileID: 0}
 --- !u!114 &114881241779502134
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -5791,3 +5801,42 @@ MonoBehaviour:
   m_selectedFaces: 
   m_SelectedEdges: []
   m_selectedTriangles: 
+--- !u!114 &114938677181360680
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1270458580405642}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f966943b0e3d6bd40b07a6b0569998f9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  fractionName: tree
+  friendlyFractions: []
+  enemyFractions: []
+--- !u!135 &135563059977906318
+SphereCollider:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1415370227964692}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Radius: 2
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!136 &136287330358164266
+CapsuleCollider:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1270458580405642}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  m_Radius: 0.23277426
+  m_Height: 4.150637
+  m_Direction: 1
+  m_Center: {x: 0, y: 2.0753186, z: 0}
