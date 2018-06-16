@@ -29,28 +29,51 @@ public class AiMovement : MonoBehaviour
 	private void Update()
 	{
 	}
+    bool grounded = true;
 
-	private void FixedUpdate()
+    private void OnCollisionStay(Collision collision)
+    {
+        if (collision.gameObject.tag == "ground")
+            grounded = true;
+
+    }
+
+    private void FixedUpdate()
 	{
 
-        if (influencePosition.sqrMagnitude > maximalMovementSpeed * maximalMovementSpeed)
+        if (grounded)
         {
-            Vector2 v = influencePosition.normalized * maximalMovementSpeed * Time.fixedDeltaTime;
-            body.AddForce(new Vector3(v.x, 0, v.y));
+            if (influencePosition.sqrMagnitude > maximalMovementSpeed * maximalMovementSpeed)
+            {
+                Vector2 v = influencePosition.normalized * maximalMovementSpeed * Time.fixedDeltaTime;
+                body.AddForce(new Vector3(v.x, 0, v.y));
+            }
+            else
+            {
+                Vector2 v = influencePosition * Time.fixedDeltaTime;
+                body.AddForce(new Vector3(v.x, 0, v.y));
+            }
         }
         else
         {
-            Vector2 v = influencePosition * Time.fixedDeltaTime;
-            body.AddForce(new Vector3(v.x, 0, v.y));
+            //influencePosition = Vector2.zero;
         }
+
+        Debug.Log(grounded);
+
 
 		influencePosition *= positionDamping;
 		influenceRotation *= rotationDamping;
 	}
 
+    private void LateUpdate()
+    {
+        grounded = false;
+    }
 
 
-#region Apply
+
+    #region Apply
     public void SetRotation(float rotation)
     {
         body.rotation = Quaternion.Euler(0, rotation, 0);
