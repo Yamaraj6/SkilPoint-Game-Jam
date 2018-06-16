@@ -22,7 +22,8 @@ namespace SkilPoint_Game_Jam.Assets.Scripts
         {
             if (other.gameObject.tag == "ground")
             {
-          //      yield return new WaitForSeconds(2);
+                //      yield return new WaitForSeconds(2);
+                this.GetComponent<Rigidbody> ().velocity = Vector3.zero;
                 CreateTree ();
                 yield return StartCoroutine (ScaleOverTime (_growingSpeed));
             }
