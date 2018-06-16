@@ -3,14 +3,7 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags:
-<<<<<<< HEAD
-  - Enemy
-=======
-  - ground
-  - floor
-  - ground
->>>>>>> 1bf8bda6c546b855e50ccedd7e938fde07acca31
+  tags: []
   layers:
   - Default
   - TransparentFX
