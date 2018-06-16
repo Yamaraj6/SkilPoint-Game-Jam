@@ -30,6 +30,7 @@ GameObject:
   - component: {fileID: 114439621665216652}
   - component: {fileID: 114706959961311512}
   - component: {fileID: 114100363034381878}
+  - component: {fileID: 114584961552041086}
   m_Layer: 0
   m_Name: Player
   m_TagString: Player
@@ -861,7 +862,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1067127743542714}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.92, y: 0.55545306, z: 0.04627657}
+  m_LocalPosition: {x: -3.5455155, y: 0.42220372, z: 0.96118337}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 4086010282203594}
@@ -1240,6 +1241,20 @@ MonoBehaviour:
   idleStartTime: 0.2
   runSpeed: 200
   damping: 0.15
+--- !u!114 &114584961552041086
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1067127743542714}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 18f8f7f7b78c37a40a30f103ef6e5586, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _seed: {fileID: 1755522466826906, guid: 38de4e737da15ce4ab77ddfb60c968f6, type: 2}
+  _verticalPower: 5
+  _horizontalPower: 1
 --- !u!114 &114620417259200368
 MonoBehaviour:
   m_ObjectHideFlags: 1
