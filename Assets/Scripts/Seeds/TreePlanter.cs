@@ -14,7 +14,7 @@ namespace SkilPoint_Game_Jam.Assets.Scripts.Seeds
         private int _horizontalPower;
         public void Update ()
         {
-            if (Input.GetKeyDown ("up"))
+            if (Input.GetKeyDown ("1"))
                 PlantTrees (10);
         }
         public void PlantTrees (int numberOfTrees)
