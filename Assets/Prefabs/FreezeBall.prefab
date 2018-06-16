@@ -21,6 +21,8 @@ GameObject:
   - component: {fileID: 4668355605503038}
   - component: {fileID: 198121918752067852}
   - component: {fileID: 199961744996704088}
+  - component: {fileID: 114342008742309808}
+  - component: {fileID: 114807278522639598}
   m_Layer: 0
   m_Name: FreezeBall
   m_TagString: Untagged
@@ -138,6 +140,29 @@ Light:
   m_UseColorTemperature: 0
   m_ShadowRadius: 0
   m_ShadowAngle: 0
+--- !u!114 &114342008742309808
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1422007788904342}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f7420d8a38b9fac4da6158b934398c1d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &114807278522639598
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1422007788904342}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 97dd85300e7a75d428e54d2a57f67c0f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  time: 4
 --- !u!198 &198121918752067852
 ParticleSystem:
   m_ObjectHideFlags: 1
