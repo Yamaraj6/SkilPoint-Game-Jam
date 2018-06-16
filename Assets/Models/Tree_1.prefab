@@ -59,9 +59,10 @@ GameObject:
   m_Component:
   - component: {fileID: 4884607355376484}
   - component: {fileID: 136406225866091102}
+  - component: {fileID: 114607967695276190}
   m_Layer: 0
   m_Name: Tree_1
-  m_TagString: Untagged
+  m_TagString: tree
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -168,7 +169,7 @@ Transform:
   m_GameObject: {fileID: 1453850549188590}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -1.1433513, y: -3.5, z: 12.219521}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 0, y: 0, z: 0}
   m_Children:
   - {fileID: 4278564413836026}
   - {fileID: 4842349367041886}
@@ -9596,6 +9597,17 @@ MonoBehaviour:
   m_selectedFaces: 
   m_SelectedEdges: []
   m_selectedTriangles: 
+--- !u!114 &114607967695276190
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1453850549188590}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c849648b6ac5a3948a2fd76c2f5dabb6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!114 &114653715945866596
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -11559,7 +11571,7 @@ CapsuleCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  m_Radius: 0.23277429
+  m_Radius: 0.23277426
   m_Height: 3.9260676
   m_Direction: 1
   m_Center: {x: 0, y: 1.9630338, z: 0}

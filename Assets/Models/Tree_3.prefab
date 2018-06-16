@@ -61,9 +61,10 @@ GameObject:
   - component: {fileID: 114947612282339238}
   - component: {fileID: 114464906525731874}
   - component: {fileID: 114973881880924464}
+  - component: {fileID: 114956830472050336}
   m_Layer: 0
   m_Name: Tree_3
-  m_TagString: Untagged
+  m_TagString: tree
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6930,6 +6931,17 @@ MonoBehaviour:
   regeneration: 0
   removeAfterDeath: 1
   objectToRemove: {fileID: 0}
+--- !u!114 &114956830472050336
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1706831449602900}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c849648b6ac5a3948a2fd76c2f5dabb6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!114 &114973881880924464
 MonoBehaviour:
   m_ObjectHideFlags: 1

@@ -1,4 +1,5 @@
 using System.Collections;
+using System.Linq;
 using UnityEngine;
 
 namespace SkilPoint_Game_Jam.Assets.Scripts
@@ -18,6 +19,12 @@ namespace SkilPoint_Game_Jam.Assets.Scripts
         {
             //  if (Vector3.Distance (this.transform.position, _floor.transform.position) < 5)
         }
+   /*     void OnTriggerEnter (Collider other)
+        {
+            if (other.gameObject.tag == "tree")
+                Destroy (gameObject);
+
+        }*/
         private IEnumerator OnCollisionEnter (Collision other)
         {
             if (other.gameObject.tag == "ground")
@@ -36,14 +43,23 @@ namespace SkilPoint_Game_Jam.Assets.Scripts
 
         private void CreateTree ()
         {
-            var treeVariant = Random.Range(0,3);
+            CheckNearestTree();
+            var treeVariant = Random.Range (0, 3);
             _treeObject[treeVariant].transform.localScale = new Vector3 (0, 0, 0);
             _instantiatedTree = Instantiate (_treeObject[treeVariant], this.transform.position, _treeObject[treeVariant].transform.rotation);
         }
 
+        private void CheckNearestTree()
+        {
+            if(GameObject.FindGameObjectsWithTag("tree").ToList().Where(w => Vector3.Distance(this.transform.position, w.transform.position)<2).Count() >0)
+            {
+                Destroy(gameObject);
+            } 
+        }
+
         public IEnumerator ScaleOverTime (float time)
         {
-            AudioSource audio = GetComponent<AudioSource>();
+            AudioSource audio = GetComponent<AudioSource> ();
             audio.Play ();
             audio.Play (44100);
 
