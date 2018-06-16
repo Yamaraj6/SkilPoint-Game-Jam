@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Push : Skill
+public class PushSkill : Skill
 {
     public float radius = 5.0F;
     public float power = 10.0F;
