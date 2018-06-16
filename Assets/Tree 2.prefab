@@ -9,40 +9,40 @@ Prefab:
     m_Modifications: []
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 0}
-  m_RootGameObject: {fileID: 1877569498965896}
+  m_RootGameObject: {fileID: 1274707222794524}
   m_IsPrefabParent: 1
---- !u!1 &1877569498965896
+--- !u!1 &1274707222794524
 GameObject:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   serializedVersion: 5
   m_Component:
-  - component: {fileID: 4570253533259394}
-  - component: {fileID: 193211021699778174}
-  - component: {fileID: 33351197716217766}
-  - component: {fileID: 23122500629288788}
+  - component: {fileID: 4960911620962204}
+  - component: {fileID: 193734482300946530}
+  - component: {fileID: 33545114240103938}
+  - component: {fileID: 23067464747702246}
   m_Layer: 0
-  m_Name: Tree 1
+  m_Name: Tree 2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &4570253533259394
+--- !u!4 &4960911620962204
 Transform:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1877569498965896}
+  m_GameObject: {fileID: 1274707222794524}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!21 &21241023961943716
+--- !u!21 &21401147188916686
 Material:
   serializedVersion: 6
   m_ObjectHideFlags: 10
@@ -61,19 +61,19 @@ Material:
     serializedVersion: 3
     m_TexEnvs:
     - _BumpSpecMap:
-        m_Texture: {fileID: 2800000, guid: 3fadb4c4216fd324f9768f0e6ebf4e22, type: 3}
+        m_Texture: {fileID: 2800000, guid: 5dd168942ae233f4a8c289e9f6756421, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MainTex:
-        m_Texture: {fileID: 2800000, guid: af3536ec4033bff4f8d046c37a7faae8, type: 3}
+        m_Texture: {fileID: 2800000, guid: 23ff453c2c153d94a99fb66eef6a1566, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _ShadowTex:
-        m_Texture: {fileID: 2800000, guid: 8df8542847b17f946953b7f13bf319f5, type: 3}
+        m_Texture: {fileID: 2800000, guid: 513f73f989a913d45a585a7367899a04, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _TranslucencyMap:
-        m_Texture: {fileID: 2800000, guid: fbe974ec53c544b48a10c81e03e650d9, type: 3}
+        m_Texture: {fileID: 2800000, guid: acf0c58d8a0b2d34b87f4445e0b6c33f, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     m_Floats:
@@ -87,7 +87,7 @@ Material:
     - _TranslucencyColor: {r: 0.73, g: 0.85, b: 0.41, a: 1}
     - _TreeInstanceColor: {r: 1, g: 1, b: 1, a: 1}
     - _TreeInstanceScale: {r: 1, g: 1, b: 1, a: 1}
---- !u!21 &21415297859125774
+--- !u!21 &21738560011708118
 Material:
   serializedVersion: 6
   m_ObjectHideFlags: 10
@@ -106,15 +106,15 @@ Material:
     serializedVersion: 3
     m_TexEnvs:
     - _BumpSpecMap:
-        m_Texture: {fileID: 2800000, guid: 3fadb4c4216fd324f9768f0e6ebf4e22, type: 3}
+        m_Texture: {fileID: 2800000, guid: 5dd168942ae233f4a8c289e9f6756421, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MainTex:
-        m_Texture: {fileID: 2800000, guid: af3536ec4033bff4f8d046c37a7faae8, type: 3}
+        m_Texture: {fileID: 2800000, guid: 23ff453c2c153d94a99fb66eef6a1566, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _TranslucencyMap:
-        m_Texture: {fileID: 2800000, guid: fbe974ec53c544b48a10c81e03e650d9, type: 3}
+        m_Texture: {fileID: 2800000, guid: acf0c58d8a0b2d34b87f4445e0b6c33f, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     m_Floats:
@@ -125,12 +125,12 @@ Material:
     - _SpecColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
     - _TreeInstanceColor: {r: 1, g: 1, b: 1, a: 1}
     - _TreeInstanceScale: {r: 1, g: 1, b: 1, a: 1}
---- !u!23 &23122500629288788
+--- !u!23 &23067464747702246
 MeshRenderer:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1877569498965896}
+  m_GameObject: {fileID: 1274707222794524}
   m_Enabled: 1
   m_CastShadows: 1
   m_ReceiveShadows: 1
@@ -140,7 +140,7 @@ MeshRenderer:
   m_ReflectionProbeUsage: 1
   m_RenderingLayerMask: 4294967295
   m_Materials:
-  - {fileID: 21415297859125774}
+  - {fileID: 21738560011708118}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -160,14 +160,14 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
---- !u!33 &33351197716217766
+--- !u!33 &33545114240103938
 MeshFilter:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1877569498965896}
-  m_Mesh: {fileID: 43818881157725524}
---- !u!43 &43818881157725524
+  m_GameObject: {fileID: 1274707222794524}
+  m_Mesh: {fileID: 43576542797821802}
+--- !u!43 &43576542797821802
 Mesh:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
@@ -313,7 +313,7 @@ Mesh:
   m_BakedConvexCollisionMesh: 
   m_BakedTriangleCollisionMesh: 
   m_MeshOptimized: 0
---- !u!114 &114915948600928776
+--- !u!114 &114466182592218374
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
@@ -842,15 +842,15 @@ MonoBehaviour:
     parentID: 2
     groupID: 3
     _uniqueID: 4
-  mesh: {fileID: 43818881157725524}
-  optimizedSolidMaterial: {fileID: 21415297859125774}
-  optimizedCutoutMaterial: {fileID: 21241023961943716}
+  mesh: {fileID: 43576542797821802}
+  optimizedSolidMaterial: {fileID: 21738560011708118}
+  optimizedCutoutMaterial: {fileID: 21401147188916686}
   isInPreviewMode: 0
---- !u!193 &193211021699778174
+--- !u!193 &193734482300946530
 Tree:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1877569498965896}
+  m_GameObject: {fileID: 1274707222794524}
   m_SpeedTreeWindAsset: {fileID: 0}
-  m_TreeData: {fileID: 114915948600928776}
+  m_TreeData: {fileID: 114466182592218374}
