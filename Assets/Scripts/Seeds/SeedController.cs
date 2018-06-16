@@ -30,6 +30,7 @@ namespace SkilPoint_Game_Jam.Assets.Scripts
             {
                 yield return null;
             }
+
         }
 
         private void CreateTree ()

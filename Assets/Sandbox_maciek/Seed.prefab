@@ -113,7 +113,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _floor: {fileID: 1857448642620684, guid: c5862874295d40f4e8dd545bd650365f, type: 2}
-  _treeObject: {fileID: 1877569498965896, guid: bf1be4e582a3e5745828fd31cff5d29a,
+  _treeObject: {fileID: 1282404914761326, guid: 4089b0749726a2e45b420ac997a9880f,
     type: 2}
   _growingSpeed: 2
 --- !u!135 &135919470828397122
