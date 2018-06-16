@@ -22,6 +22,7 @@ namespace SkilPoint_Game_Jam.Assets.Scripts
         {
             if (other.gameObject.tag == "ground")
             {
+          //      yield return new WaitForSeconds(2);
                 CreateTree ();
                 yield return StartCoroutine (ScaleOverTime (_growingSpeed));
             }
@@ -50,7 +51,6 @@ namespace SkilPoint_Game_Jam.Assets.Scripts
                 yield return null;
             } while (currentTime <= time);
 
-            gameObject.SetActive(false);
             DestroyImmediate (gameObject);
         }
 

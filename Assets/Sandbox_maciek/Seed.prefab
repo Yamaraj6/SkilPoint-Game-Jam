@@ -85,7 +85,7 @@ MeshFilter:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1755522466826906}
-  m_Mesh: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
+  m_Mesh: {fileID: 10208, guid: 0000000000000000e000000000000000, type: 0}
 --- !u!54 &54367329817645990
 Rigidbody:
   m_ObjectHideFlags: 1
@@ -113,7 +113,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _floor: {fileID: 1857448642620684, guid: c5862874295d40f4e8dd545bd650365f, type: 2}
-  _treeObject: {fileID: 1324493021195588, guid: ca2082c348956024a82888bc34af62fe,
+  _treeObject: {fileID: 1180803447206080, guid: 63b153c3da514ad4c992a164315bdc01,
     type: 2}
   _growingSpeed: 2
 --- !u!135 &135919470828397122
