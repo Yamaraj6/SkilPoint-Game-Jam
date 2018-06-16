@@ -22,7 +22,8 @@ namespace SkilPoint_Game_Jam.Assets.Scripts
         {
             if (other.gameObject.tag == "ground")
             {
-          //      yield return new WaitForSeconds(2);
+                //      yield return new WaitForSeconds(2);
+                this.GetComponent<Rigidbody> ().velocity = Vector3.zero;
                 CreateTree ();
                 yield return StartCoroutine (ScaleOverTime (_growingSpeed));
             }
@@ -41,6 +42,10 @@ namespace SkilPoint_Game_Jam.Assets.Scripts
 
         public IEnumerator ScaleOverTime (float time)
         {
+            AudioSource audio = GetComponent<AudioSource>();
+            audio.Play ();
+            audio.Play (44100);
+
             var originalScale = _instantiatedTree.transform.localScale;
             var destinationScale = new Vector3 (1.0f, 1.0f, 1.0f);
 

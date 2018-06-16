@@ -6,14 +6,14 @@ public abstract class Skill : MonoBehaviour
 {
     [SerializeField] protected KeyCode activeSkillKey;
     protected abstract void ActiveSkill();
-
+    [SerializeField] Transform skillSpawnPoint;
 
     [SerializeField] protected GameObject skillParticlesPrefab;
     [SerializeField] protected float coolDown;
 
     protected void InstantiateParticles()
     {
-        Instantiate(skillParticlesPrefab, transform.position,transform.rotation );
+        Instantiate(skillParticlesPrefab, skillSpawnPoint.position,transform.rotation );
     }
 
     private void Update()

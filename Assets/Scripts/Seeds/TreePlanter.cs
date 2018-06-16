@@ -7,6 +7,8 @@ namespace SkilPoint_Game_Jam.Assets.Scripts.Seeds
     public class TreePlanter : MonoBehaviour
     {
         [SerializeField]
+        private GameObject _sound;
+        [SerializeField]
         private GameObject _seed;
         [SerializeField]
         private int _verticalPower;
