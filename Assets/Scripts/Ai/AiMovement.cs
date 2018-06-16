@@ -20,28 +20,22 @@ public class AiMovement : MonoBehaviour
 	Vector2 influencePosition;
 
 	Rigidbody body;
+    CharacterControllerRB groundCheck;
 
 	public void Start()
 	{
 		body = GetComponent<Rigidbody>();
+        groundCheck = GetComponentInChildren<CharacterControllerRB>();
 	}
 
 	private void Update()
 	{
 	}
-    bool grounded = true;
-
-    private void OnCollisionStay(Collision collision)
-    {
-        if (collision.gameObject.tag == "ground")
-            grounded = true;
-
-    }
 
     private void FixedUpdate()
 	{
 
-        if (grounded)
+        if (groundCheck.isGrounded)
         {
             if (influencePosition.sqrMagnitude > maximalMovementSpeed * maximalMovementSpeed)
             {
@@ -56,20 +50,14 @@ public class AiMovement : MonoBehaviour
         }
         else
         {
-            //influencePosition = Vector2.zero;
+            influencePosition = Vector2.zero;
         }
 
-        Debug.Log(grounded);
-
+        //Debug.Log((groundCheck.isGrounded));
 
 		influencePosition *= positionDamping;
 		influenceRotation *= rotationDamping;
 	}
-
-    private void LateUpdate()
-    {
-        grounded = false;
-    }
 
 
 
