@@ -20,6 +20,7 @@ public class CharacterControllerMovement : MonoBehaviour
 	public float damping = 0.15f;
 
 	//Input variables.
+	float inputHorizontal = 0f;
 	float inputVertical = 0f;
 	private Vector3 inputVec;
 
@@ -48,21 +49,25 @@ public class CharacterControllerMovement : MonoBehaviour
 
 	void Inputs()
 	{
-	//	inputHorizontal = CrossPlatformInputManager.GetAxis("Horizontal");
+		inputHorizontal = CrossPlatformInputManager.GetAxis("Horizontal");
 		inputVertical = CrossPlatformInputManager.GetAxis("Vertical");
-		inputVec = new Vector3(0, 0, inputVertical).normalized;
+		inputVec = new Vector3(inputHorizontal, 0, inputVertical).normalized;
 	}
 
 	private void Move()
-	{		
-		if (characterController.isGrounded && inputVertical != 0 && inputVec.z>0)
+	{
+		if (characterController.isGrounded)
+		{
+			MovePhysic(inputVec, runSpeed);
+		}
+		
+		if (characterController.isGrounded && (inputHorizontal != 0 || inputVertical != 0))
 		{
 			//Move Animation
 			animator.SetBool("Moving", true);
-			animator.SetFloat("MoveSpeed", inputVec.z, damping, Time.deltaTime);
+			animator.SetFloat("Horizontal", inputVec.x, damping, Time.deltaTime);
+			animator.SetFloat("Vertical", inputVec.z, damping, Time.deltaTime);
 			stopTime = 0;
-
-			MovePhysic(inputVec, runSpeed);
 		}
 		else
 		{
@@ -71,7 +76,6 @@ public class CharacterControllerMovement : MonoBehaviour
 				animator.SetBool("Moving", false);
 			}
 			stopTime += Time.deltaTime;
-            MovePhysic(new Vector3(0,0,0),0);
 		}
 	}
 
