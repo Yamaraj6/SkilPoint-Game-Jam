@@ -20,7 +20,7 @@ namespace SkilPoint_Game_Jam.Assets.Scripts
         }
         private IEnumerator OnCollisionEnter (Collision other)
         {
-            if (other.gameObject.tag == "floor")
+            if (other.gameObject.tag == "ground")
             {
                 CreateTree ();
                 yield return StartCoroutine (ScaleOverTime (_growingSpeed));

@@ -112,8 +112,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 32f5576decbcb5043bb506bd09e93215, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _floor: {fileID: 0}
-  _treeObject: {fileID: 1138526403781566, guid: 2ba4225d0fe57d44ba26df2bca56c4e3,
+  _floor: {fileID: 1857448642620684, guid: c5862874295d40f4e8dd545bd650365f, type: 2}
+  _treeObject: {fileID: 1324493021195588, guid: ca2082c348956024a82888bc34af62fe,
     type: 2}
   _growingSpeed: 2
 --- !u!135 &135919470828397122
