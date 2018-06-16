@@ -42,6 +42,10 @@ namespace SkilPoint_Game_Jam.Assets.Scripts
 
         public IEnumerator ScaleOverTime (float time)
         {
+            AudioSource audio = GetComponent<AudioSource>();
+            audio.Play ();
+            audio.Play (44100);
+
             var originalScale = _instantiatedTree.transform.localScale;
             var destinationScale = new Vector3 (1.0f, 1.0f, 1.0f);
 
