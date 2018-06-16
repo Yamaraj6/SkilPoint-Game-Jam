@@ -2,16 +2,24 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Push : MonoBehaviour
+public class Push : Skill
 {
     public float radius = 5.0F;
     public float power = 10.0F;
 
-    void Start()
+
+    private void Update()
+    {
+        if (Input.GetKeyDown(activeSkillKey))
+            ActiveSkill();
+    }
+
+    protected override void ActiveSkill()
     {
         Vector3 explosionPos = transform.position;
         Collider[] colliders = Physics.OverlapSphere(explosionPos, radius);
 
+        InstantiateParticles();
         foreach (Collider hit in colliders)
         {
             Rigidbody rb = hit.GetComponent<Rigidbody>();
