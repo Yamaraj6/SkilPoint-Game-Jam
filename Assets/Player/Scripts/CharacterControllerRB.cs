@@ -21,6 +21,7 @@ public class CharacterControllerRB : MonoBehaviour
     public float colliderRadius = 0.45f;
     public float slopeAmount = 0.2f;
     public string groundType="";
+    public Vector3 groundOffset;
 
     //Action info.
     public bool isBusy = false;
@@ -35,7 +36,6 @@ public class CharacterControllerRB : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        FreezConstraints();
         CheckForGrounded();
         CheckForJumpingSpace();
     }
@@ -45,30 +45,10 @@ public class CharacterControllerRB : MonoBehaviour
         LookAtBoss();
     }
 
-    void FreezConstraints()
-    {
-        if (!bossArea)
-        {
-            rb.constraints =
-              freezeAxis |
-              RigidbodyConstraints.FreezeRotationX |
-              RigidbodyConstraints.FreezeRotationY |
-              RigidbodyConstraints.FreezeRotationZ;
-        }
-        else
-        {
-            rb.constraints =
-              RigidbodyConstraints.FreezeRotationX |
-              RigidbodyConstraints.FreezeRotationY |
-              RigidbodyConstraints.FreezeRotationZ;
-        }
-    }
-
     void CheckForGrounded()
     {
         RaycastHit hit;
-        Vector3 offset = new Vector3(0, 1f, 0);
-        var origin = (transform.position + offset);
+        var origin = (transform.position + groundOffset);
 
         if (Physics.SphereCast(origin, colliderRadius, -Vector3.up, out hit, 100f))
         {

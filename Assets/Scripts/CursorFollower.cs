@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class CursorFollower : MonoBehaviour
 {
-    void Update()
+    void FixedUpdate()
     {
 
         //Get the Screen positions of the object

@@ -90,6 +90,9 @@ GameObject:
   - component: {fileID: 198319992108867650}
   - component: {fileID: 199446518357591174}
   - component: {fileID: 82527425218512580}
+  - component: {fileID: 114831624961541916}
+  - component: {fileID: 114814206632799618}
+  - component: {fileID: 114447827528030290}
   m_Layer: 0
   m_Name: Explode_cold
   m_TagString: Untagged
@@ -175,7 +178,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: 76970bb7b4b95d642b9aaf2a50c22912, type: 3}
+  m_audioClip: {fileID: 8300000, guid: 0310b20f240ee1543bf168944e1e119b, type: 3}
   m_PlayOnAwake: 1
   m_Volume: 1
   m_Pitch: 1
@@ -261,6 +264,67 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!114 &114447827528030290
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1777845916198654}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f966943b0e3d6bd40b07a6b0569998f9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  fractionName: 
+  friendlyFractions:
+  - Player
+  enemyFractions: []
+--- !u!114 &114814206632799618
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1777845916198654}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 476154cb1f6d3474fb88bf46dbeb8c77, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  prefab: {fileID: 1321427763080314, guid: 8d27143a55ca22844903322c5dd3e51a, type: 2}
+  ignoreTag: noTag
+  attachType: freeze
+  onEnter: 1
+  onExit: 0
+  _collision: 1
+  trigger: 1
+  fraction: {fileID: 0}
+  attachCd:
+    cd: 0
+--- !u!114 &114831624961541916
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1777845916198654}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 41e6ec63ad6ef364ebece5cc90b6f378, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  damageEnter:
+    damage: -30
+  damageStay:
+    damage: 0
+  damageExit:
+    damage: 0
+  ignoreTag: noTag
+  removeOnEnter: 0
+  removeOnExit: 0
+  removeOnCollision: 0
+  removeOnTrigger: 0
+  objToRemove: {fileID: 0}
+  myFraction: {fileID: 0}
+  instigator: {fileID: 0}
 --- !u!198 &198292949768688280
 ParticleSystem:
   m_ObjectHideFlags: 1

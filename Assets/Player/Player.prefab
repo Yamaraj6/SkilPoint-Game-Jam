@@ -23,7 +23,7 @@ GameObject:
   - component: {fileID: 54501648894752056}
   - component: {fileID: 136959976596977548}
   - component: {fileID: 114078001444307110}
-  - component: {fileID: 114566316098845376}
+  - component: {fileID: 114114276791574084}
   - component: {fileID: 82101710169454346}
   - component: {fileID: 114620417259200368}
   - component: {fileID: 114556510258862004}
@@ -918,7 +918,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1067127743542714}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -2.3, y: 0.46, z: 0.5}
+  m_LocalPosition: {x: -0.92, y: 0.55545306, z: 0.04627657}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 4086010282203594}
@@ -1215,7 +1215,7 @@ Animator:
   m_GameObject: {fileID: 1067127743542714}
   m_Enabled: 1
   m_Avatar: {fileID: 9000000, guid: d161fa6f53fc0324396bdc6fbae524ad, type: 3}
-  m_Controller: {fileID: 9100000, guid: 7deade44639fadf43878120f93cce7f6, type: 2}
+  m_Controller: {fileID: 9100000, guid: a48cd5c6c2e9ce241b604c305b1f14dd, type: 2}
   m_CullingMode: 1
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -1244,6 +1244,7 @@ MonoBehaviour:
   colliderRadius: 0.45
   slopeAmount: 0.2
   groundType: 
+  groundOffset: {x: 0, y: 0, z: 0}
   isBusy: 0
 --- !u!114 &114100363034381878
 MonoBehaviour:
@@ -1257,6 +1258,20 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 100
+--- !u!114 &114114276791574084
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1067127743542714}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c596d391b2c7f5a4c8913f9c8970ba62, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  idleStartTime: 0.2
+  runSpeed: 200
+  damping: 0.15
 --- !u!114 &114439621665216652
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1286,6 +1301,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 27972977a313b4c4984c43b36ceb9c0a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+<<<<<<< HEAD
+=======
 --- !u!114 &114566316098845376
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1300,6 +1317,7 @@ MonoBehaviour:
   idleStartTime: 0.2
   runSpeed: 500
   damping: 0.15
+>>>>>>> 6755ba1839375cbf8c5e92ea7654e8f07946cb0c
 --- !u!114 &114584961552041086
 MonoBehaviour:
   m_ObjectHideFlags: 1
