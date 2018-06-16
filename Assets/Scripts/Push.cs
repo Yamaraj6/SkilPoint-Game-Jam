@@ -8,12 +8,6 @@ public class Push : Skill
     public float power = 10.0F;
 
 
-    private void Update()
-    {
-        if (Input.GetKeyDown(activeSkillKey))
-            ActiveSkill();
-    }
-
     protected override void ActiveSkill()
     {
         Vector3 explosionPos = transform.position;
