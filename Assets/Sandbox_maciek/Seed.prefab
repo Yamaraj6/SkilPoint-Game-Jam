@@ -22,8 +22,8 @@ GameObject:
   - component: {fileID: 33080407423303478}
   - component: {fileID: 23460116226484930}
   - component: {fileID: 135919470828397122}
-  - component: {fileID: 54367329817645990}
   - component: {fileID: 114853959241993998}
+  - component: {fileID: 54100515810427512}
   m_Layer: 0
   m_Name: Seed
   m_TagString: Untagged
@@ -86,7 +86,7 @@ MeshFilter:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1755522466826906}
   m_Mesh: {fileID: 10208, guid: 0000000000000000e000000000000000, type: 0}
---- !u!54 &54367329817645990
+--- !u!54 &54100515810427512
 Rigidbody:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
@@ -113,7 +113,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _floor: {fileID: 1857448642620684, guid: c5862874295d40f4e8dd545bd650365f, type: 2}
-  _treeObject: {fileID: 1180803447206080, guid: 63b153c3da514ad4c992a164315bdc01,
+  _treeObject: {fileID: 1877569498965896, guid: bf1be4e582a3e5745828fd31cff5d29a,
     type: 2}
   _growingSpeed: 2
 --- !u!135 &135919470828397122
