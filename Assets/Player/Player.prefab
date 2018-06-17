@@ -1281,7 +1281,7 @@ MonoBehaviour:
   freezeAxis: 0
   distanceToGround: 0.2
   distanceToFloor: 0
-  isGrounded: 0
+  isGrounded: 1
   hasJumpingSpace: 0
   colliderRadius: 0.45
   slopeAmount: 0.2
@@ -1300,7 +1300,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   idleStartTime: 0.2
-  runSpeed: 200
+  runSpeed: 500
   damping: 0.15
 --- !u!114 &114556376687696704
 MonoBehaviour:

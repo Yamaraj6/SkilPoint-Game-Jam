@@ -32,6 +32,7 @@ namespace SkilPoint_Game_Jam.Assets.Scripts
                 //      yield return new WaitForSeconds(2);
                 this.GetComponent<Rigidbody> ().velocity = Vector3.zero;
                 CreateTree ();
+                this.GetComponent<MeshRenderer>().enabled = false;
                 yield return StartCoroutine (ScaleOverTime (_growingSpeed));
             }
             else
