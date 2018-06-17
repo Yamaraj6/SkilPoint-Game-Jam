@@ -5,19 +5,26 @@ using UnityEngine;
 [RequireComponent(typeof(Animator))]
 [RequireComponent(typeof(CharacterControllerRB))]
 public class CharacterControllerAction : MonoBehaviour {
+    public float timeThrowObject=0.4f;
+    public float timeSuperPower=0.8f;
     Animator animator;
-    private CharacterControllerRB characterController;
+    CharacterControllerRB characterController;
 
     private void Start()
     {
         animator = GetComponent<Animator>();
-        characterController = GetComponentInChildren<CharacterControllerRB>();
+        characterController = GetComponent<CharacterControllerRB>();
     }
 
     public void ActiveSuperPower()
     {
-    //    animator.SetTrigger("Moving");
-        characterController.isBusy = true;
+        animator.SetTrigger("SuperPowerTrigger");
+        characterController.BeBusy(timeSuperPower);
     }
-    
+
+    public void ThrowObject()
+    {
+        animator.SetTrigger("ThrowTrigger");
+        characterController.BeBusy(timeThrowObject);
+    }
 }

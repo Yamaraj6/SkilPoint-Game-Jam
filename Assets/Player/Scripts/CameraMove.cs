@@ -31,6 +31,14 @@ public class CameraMove : MonoBehaviour {
     }
     #endregion
 
+    void Start()
+    {
+        if (player == null)
+        {
+            player = GameObject.FindGameObjectWithTag("Player");
+        }
+    }
+
     void LateUpdate()
     {
         if (!bossArea || !bossLevel)
