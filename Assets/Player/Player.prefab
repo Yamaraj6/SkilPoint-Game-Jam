@@ -1518,7 +1518,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 18f8f7f7b78c37a40a30f103ef6e5586, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  activeSkillKey: 53
+  activeSkillKey: 323
   skillSpawnPoint: {fileID: 4987813003254830}
   skillParticlesPrefab: {fileID: 0}
   coolDown: {fileID: 0}
