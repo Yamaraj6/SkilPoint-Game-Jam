@@ -14,6 +14,7 @@ TagManager:
   - Freeze
   - Mine
   - SeedSkill
+  - sky
   layers:
   - Default
   - TransparentFX

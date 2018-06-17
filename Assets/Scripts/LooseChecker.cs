@@ -6,27 +6,28 @@ namespace SkilPoint_Game_Jam.Assets.Scripts
 {
 	public class LooseChecker : MonoBehaviour
 	{
-		[SerializeField]private int _treesToLoose = 5;
+		[SerializeField] private int _treesToLoose = 5;
 		private float _timer = 0;
+		private bool _isDead = false;
 
 		// Update is called once per frame
 		void Update ()
 		{
 			_timer += Time.deltaTime;
-			if(_timer>1)
+			if (_timer > 1)
 			{
-				CheckIfLost();
+				CheckIfLost ();
 				_timer = 0;
 			}
 		}
 
 		private void CheckIfLost ()
 		{
-			if(GameObject.FindGameObjectsWithTag("tree").Count() <= _treesToLoose)
+			if (GameObject.FindGameObjectsWithTag ("tree").Count () <= _treesToLoose && !_isDead)
 			{
-				Debug.LogError("YOU LOST, NOT ENOUGH TREES!!!");
-				Time.timeScale = 0;
-				Destroy(gameObject);
+				Debug.LogError ("YOU LOST, NOT ENOUGH TREES!!!");
+				gameObject.GetComponent<PlayerDeathController> ().Die ();
+				_isDead = true;
 			}
 		}
 	}
