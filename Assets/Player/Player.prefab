@@ -396,6 +396,10 @@ GameObject:
   - component: {fileID: 114307510199515842}
   - component: {fileID: 114499018721611752}
   - component: {fileID: 114452883502013148}
+  - component: {fileID: 114645128035918444}
+  - component: {fileID: 114003181704299408}
+  - component: {fileID: 114950366424946870}
+  - component: {fileID: 114297045833208788}
   m_Layer: 0
   m_Name: Player
   m_TagString: Player
@@ -1076,7 +1080,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1644810346353242}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.92, y: 0.55545306, z: 0.04627657}
+  m_LocalPosition: {x: -21.83, y: 0.48, z: 19.63}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 4656575806230064}
@@ -1228,6 +1232,17 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!114 &114003181704299408
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1644810346353242}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f27ba02a04649c74bb9192c903669dba, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!114 &114009010639097052
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1276,6 +1291,18 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   timeThrowObject: 0.5
   timeSuperPower: 0.8
+--- !u!114 &114297045833208788
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1644810346353242}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bdabdf6caca2cd645be9d2149eb2f21f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _survivedTime: 0
 --- !u!114 &114298770366240378
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1313,7 +1340,7 @@ MonoBehaviour:
   skillSpawnPoint: {fileID: 4943767407483750}
   skillParticlesPrefab: {fileID: 1045362802684920, guid: c25f2356b2f4a7442a7b478f414c2d8b,
     type: 2}
-  coolDown: {fileID: 0}
+  coolDown: 2
   strength: 900
 --- !u!114 &114384279266321780
 MonoBehaviour:
@@ -1330,7 +1357,7 @@ MonoBehaviour:
   skillSpawnPoint: {fileID: 4943767407483750}
   skillParticlesPrefab: {fileID: 1022210032050866, guid: de70fba9b9ec0f24d8e714f27a304052,
     type: 2}
-  coolDown: {fileID: 0}
+  coolDown: 2
 --- !u!114 &114434997197632892
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1342,10 +1369,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 18f8f7f7b78c37a40a30f103ef6e5586, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  activeSkillKey: 49
-  skillSpawnPoint: {fileID: 4943767407483750}
-  skillParticlesPrefab: {fileID: 0}
-  coolDown: {fileID: 0}
   _sound: {fileID: 0}
   _seed: {fileID: 1755522466826906, guid: 38de4e737da15ce4ab77ddfb60c968f6, type: 2}
   _verticalPower: 5
@@ -1409,9 +1432,24 @@ MonoBehaviour:
   skillSpawnPoint: {fileID: 4943767407483750}
   skillParticlesPrefab: {fileID: 1003898510224590, guid: 991397b662e4e5f49926b40a252322bb,
     type: 2}
-  coolDown: {fileID: 0}
+  coolDown: 2
   radius: 5
   power: 1000
+--- !u!114 &114645128035918444
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1644810346353242}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 14bc4ae04857dd345a385081dd1151a8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  bodyParts:
+  - {fileID: 1379842123641510}
+  - {fileID: 1391021909842336}
+  bodyCutEffect: {fileID: 0}
 --- !u!114 &114857144527251802
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1421,6 +1459,17 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 27972977a313b4c4984c43b36ceb9c0a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &114950366424946870
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1644810346353242}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9be505cd45c56b74991feb0eae8f4f60, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!136 &136851290286961256

@@ -80,6 +80,7 @@ GameObject:
   - component: {fileID: 114834746865651172}
   - component: {fileID: 114108717868221506}
   - component: {fileID: 95967121591659504}
+  - component: {fileID: 114366551397217226}
   m_Layer: 0
   m_Name: dwarf
   m_TagString: Enemy
@@ -15510,6 +15511,18 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   utilityThreshold: 0
+--- !u!114 &114366551397217226
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1247756813433438}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f5ce3011a089a444380a6d25e6b2cd80, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _player: {fileID: 0}
 --- !u!114 &114417973506780210
 MonoBehaviour:
   m_ObjectHideFlags: 1
