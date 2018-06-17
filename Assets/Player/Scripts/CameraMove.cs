@@ -41,6 +41,7 @@ public class CameraMove : MonoBehaviour {
 
     void MoveClassicCamera()
     {
+        if (!player) return;
         Vector3 targetPosition = player.transform.position + cameraOffset;
         Vector3 smoothedPosition = Vector3.Lerp(transform.position, targetPosition, smoothSpeed);
         gameObject.transform.position = smoothedPosition;

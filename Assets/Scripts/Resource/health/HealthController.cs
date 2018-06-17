@@ -1,5 +1,5 @@
-﻿using UnityEngine;
-using System.Collections;
+﻿using System.Collections;
+using UnityEngine;
 
 /*
  * Two kinds of events:
@@ -18,58 +18,68 @@ public class HealthController : ResourceController
 	// in case you should remove at death something else than owner of the script
 	// if not set up the value is assigned to an owner of the script 
 	public GameObject objectToRemove;
-    public bool IsAlive()
-    {
-        return actual > 0;
-    }
+	public bool IsAlive ()
+	{
+		return actual > 0;
+	}
 
-	protected void Start()
+	protected void Start ()
 	{
 		if (removeAfterDeath && !objectToRemove)
 			objectToRemove = gameObject;
 	}
 
-	protected new void Update()
+	protected new void Update ()
 	{
-		base.Update();
-		if (!IsAlive())
-			BroadcastMessage("OnDeath", new DamageData(new SimpleDamage(regeneration), gameObject));
+		base.Update ();
+		if (!IsAlive ())
+			BroadcastMessage ("OnDeath", new DamageData (new SimpleDamage (regeneration), gameObject));
 	}
 
 	/// struct for broadcasting messages
 	public struct DamageData
-    {
-        public DamageData(IDamageType _d, GameObject _o) { damage = _d; causer = _o; }
-        public IDamageType damage;
-        public GameObject causer;
-    }
+	{
+		public DamageData (IDamageType _d, GameObject _o) { damage = _d; causer = _o; }
+		public IDamageType damage;
+		public GameObject causer;
+	}
 
-    public void DealDamage(IDamageType damage, GameObject causer = null)
-    {
-        damage.ChangeHealth(this, causer);
+	public void DealDamage (IDamageType damage, GameObject causer = null)
+	{
+		damage.ChangeHealth (this, causer);
 
-        var data = new DamageData(damage, causer);
+		var data = new DamageData (damage, causer);
 
-        if (IsAlive())
-            BroadcastMessage("OnReceiveDamage", data );
-        else
-			BroadcastMessage("OnDeath", data);
+		if (IsAlive ())
+			BroadcastMessage ("OnReceiveDamage", data);
+		else
+			BroadcastMessage ("OnDeath", data);
 
-		actual = Mathf.Clamp(actual, 0, max);
-    }
-    public void DealDamage(float damage, GameObject causer = null)
-    {
-        DealDamage(new SimpleDamage(damage), causer);
-    }
+		actual = Mathf.Clamp (actual, 0, max);
+	}
+	public void DealDamage (float damage, GameObject causer = null)
+	{
+		DealDamage (new SimpleDamage (damage), causer);
+	}
 
-	public void OnReceiveDamage(DamageData data)
+	public void OnReceiveDamage (DamageData data)
 	{
 
 	}
-	public void OnDeath(DamageData data)
+	public void OnDeath (DamageData data)
 	{
-		if(objectToRemove && removeAfterDeath)
-			Destroy(objectToRemove);
+		if (objectToRemove && removeAfterDeath)
+		{
+			if(objectToRemove.tag == "tree")
+			{
+				var rg = objectToRemove.AddComponent (typeof (Rigidbody)) as Rigidbody; //Destroy(objectToRemove);
+			}
+			else
+			{
+				Destroy(objectToRemove);
+			}	
+			//StartCoroutine (FadeOut (objectToRemove.GetComponent<SpriteRenderer> (), 1));
+		}
 	}
 
 }
