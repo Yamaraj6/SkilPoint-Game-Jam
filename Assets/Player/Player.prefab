@@ -395,8 +395,8 @@ GameObject:
   - component: {fileID: 114384279266321780}
   - component: {fileID: 114307510199515842}
   - component: {fileID: 114499018721611752}
+  - component: {fileID: 114790512640847952}
   - component: {fileID: 114452883502013148}
-  - component: {fileID: 114645128035918444}
   - component: {fileID: 114003181704299408}
   - component: {fileID: 114950366424946870}
   - component: {fileID: 114297045833208788}
@@ -1340,7 +1340,7 @@ MonoBehaviour:
   skillSpawnPoint: {fileID: 4943767407483750}
   skillParticlesPrefab: {fileID: 1045362802684920, guid: c25f2356b2f4a7442a7b478f414c2d8b,
     type: 2}
-  coolDown: 2
+  coolDown: {fileID: 0}
   strength: 900
 --- !u!114 &114384279266321780
 MonoBehaviour:
@@ -1357,7 +1357,7 @@ MonoBehaviour:
   skillSpawnPoint: {fileID: 4943767407483750}
   skillParticlesPrefab: {fileID: 1022210032050866, guid: de70fba9b9ec0f24d8e714f27a304052,
     type: 2}
-  coolDown: 2
+  coolDown: {fileID: 0}
 --- !u!114 &114434997197632892
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1369,6 +1369,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 18f8f7f7b78c37a40a30f103ef6e5586, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  activeSkillKey: 0
+  skillSpawnPoint: {fileID: 0}
+  skillParticlesPrefab: {fileID: 0}
+  coolDown: {fileID: 0}
   _sound: {fileID: 0}
   _seed: {fileID: 1755522466826906, guid: 38de4e737da15ce4ab77ddfb60c968f6, type: 2}
   _verticalPower: 5
@@ -1432,10 +1436,10 @@ MonoBehaviour:
   skillSpawnPoint: {fileID: 4943767407483750}
   skillParticlesPrefab: {fileID: 1003898510224590, guid: 991397b662e4e5f49926b40a252322bb,
     type: 2}
-  coolDown: 2
+  coolDown: {fileID: 0}
   radius: 5
   power: 1000
---- !u!114 &114645128035918444
+--- !u!114 &114790512640847952
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
@@ -1449,7 +1453,7 @@ MonoBehaviour:
   bodyParts:
   - {fileID: 1379842123641510}
   - {fileID: 1391021909842336}
-  bodyCutEffect: {fileID: 0}
+  bodyCutEffect: {fileID: 194062, guid: 8c27aeead6d968e4ba986702d6b84335, type: 2}
 --- !u!114 &114857144527251802
 MonoBehaviour:
   m_ObjectHideFlags: 1
