@@ -400,6 +400,8 @@ GameObject:
   - component: {fileID: 114003181704299408}
   - component: {fileID: 114950366424946870}
   - component: {fileID: 114297045833208788}
+  - component: {fileID: 114791642187509232}
+  - component: {fileID: 114755821071037084}
   m_Layer: 0
   m_Name: Player
   m_TagString: Player
@@ -1439,6 +1441,20 @@ MonoBehaviour:
   coolDown: {fileID: 0}
   radius: 5
   power: 1000
+--- !u!114 &114755821071037084
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1644810346353242}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f966943b0e3d6bd40b07a6b0569998f9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  fractionName: Player
+  friendlyFractions: []
+  enemyFractions: []
 --- !u!114 &114790512640847952
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1454,6 +1470,24 @@ MonoBehaviour:
   - {fileID: 1379842123641510}
   - {fileID: 1391021909842336}
   bodyCutEffect: {fileID: 194062, guid: 8c27aeead6d968e4ba986702d6b84335, type: 2}
+--- !u!114 &114791642187509232
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1644810346353242}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5a3db3dbb54a78b4d9c63366c14b75e7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  distanceModificator: 1
+  blocksVision: 1
+  type: obstacle
+  dangerFractor: 0
+  fraction: {fileID: 0}
+  health: {fileID: 0}
+  mind: {fileID: 0}
 --- !u!114 &114857144527251802
 MonoBehaviour:
   m_ObjectHideFlags: 1
