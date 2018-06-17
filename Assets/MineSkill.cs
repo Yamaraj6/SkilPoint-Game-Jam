@@ -8,14 +8,9 @@ public class MineSkill : Skill
 
     protected override void ActiveSkill()
     {
-
         GameObject spawned = Instantiate(skillParticlesPrefab, skillSpawnPoint.position, transform.rotation);
 
         spawned.GetComponent<Rigidbody>().AddForce(transform.forward * strength);
     }
 
-    void EnableCollider()
-    {
-
-    }
 }
