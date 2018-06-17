@@ -10,6 +10,7 @@ public class FreezeBall : MonoBehaviour
     {
         if (other.gameObject.tag == "Enemy" || other.gameObject.tag == "Destructable" || other.gameObject.tag == "Tree")
         {
+            gameObject.GetComponent<CharacterControllerAction>().ActiveSuperPower();
             Instantiate(collisionParticlePrefab, transform.position, Quaternion.identity);
             Destroy(gameObject,0.3f);
         }

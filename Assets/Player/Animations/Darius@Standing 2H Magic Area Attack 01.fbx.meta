@@ -104,7 +104,7 @@ ModelImporter:
     - serializedVersion: 16
       name: Standing 2H Magic Area Attack 01
       takeName: mixamo.com
-      firstFrame: 3
+      firstFrame: 49
       lastFrame: 132
       wrapMode: 0
       orientationOffsetY: 0
