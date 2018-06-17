@@ -746,7 +746,7 @@ ParticleSystem:
         m_PostInfinity: 2
         m_RotationOrder: 0
     randomizeRotationDirection: 0
-    maxNumParticles: 16
+    maxNumParticles: 6
     size3D: 0
     rotation3D: 0
     gravityModifier:
@@ -5133,7 +5133,7 @@ ParticleSystem:
         m_PostInfinity: 2
         m_RotationOrder: 0
     randomizeRotationDirection: 0
-    maxNumParticles: 8
+    maxNumParticles: 3
     size3D: 0
     rotation3D: 1
     gravityModifier:
@@ -14024,7 +14024,7 @@ ParticleSystem:
         m_PostInfinity: 2
         m_RotationOrder: 4
     randomizeRotationDirection: 0
-    maxNumParticles: 128
+    maxNumParticles: 48
     size3D: 0
     rotation3D: 0
     gravityModifier:
@@ -18465,7 +18465,7 @@ ParticleSystem:
         m_PostInfinity: 2
         m_RotationOrder: 4
     randomizeRotationDirection: 0
-    maxNumParticles: 32
+    maxNumParticles: 12
     size3D: 0
     rotation3D: 0
     gravityModifier:
