@@ -477,7 +477,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1247756813433438}
   m_LocalRotation: {x: -0, y: -0.94982404, z: -0, w: 0.31278473}
-  m_LocalPosition: {x: -7.95, y: -0.64, z: 9.02}
+  m_LocalPosition: {x: -48.014694, y: 0.029996932, z: 24.00885}
   m_LocalScale: {x: 2, y: 2, z: 2}
   m_Children:
   - {fileID: 4965355774198906}
@@ -930,7 +930,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   behaviour: {fileID: 114417973506780210}
-  baseUtility: 3
+  baseUtility: 7
 --- !u!114 &114145809147181510
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -20319,7 +20319,7 @@ MonoBehaviour:
   reevaluateTimeMin: 0
   reevaluateTimeMax: 0
   distanceMin: 0
-  distanceMax: 3
+  distanceMax: 4
 --- !u!114 &114792383775795592
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -23311,6 +23311,7 @@ MonoBehaviour:
   friendlyFractions: []
   enemyFractions:
   - tree
+  - Player
 --- !u!114 &114841032347948618
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -28547,7 +28548,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   behaviour: {fileID: 114580540762384416}
-  baseUtility: 10
+  baseUtility: 20
 --- !u!114 &114952270523493996
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -28565,7 +28566,7 @@ MonoBehaviour:
     damage: -2
   damageExit:
     damage: 0
-  ignoreTag: Player
+  ignoreTag: noTag
   removeOnEnter: 0
   removeOnExit: 0
   removeOnCollision: 1
