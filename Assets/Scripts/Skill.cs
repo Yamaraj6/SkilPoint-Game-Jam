@@ -6,7 +6,7 @@ public abstract class Skill : MonoBehaviour
 {
     [SerializeField] protected KeyCode activeSkillKey;
     protected abstract void ActiveSkill();
-    [SerializeField] Transform skillSpawnPoint;
+    [SerializeField] protected Transform skillSpawnPoint;
 
     [SerializeField] protected GameObject skillParticlesPrefab;
     [SerializeField] protected float coolDown;

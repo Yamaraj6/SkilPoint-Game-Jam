@@ -53,4 +53,4 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   type: 
   stayTime:
-    cd: 1
+    cd: 10
