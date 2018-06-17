@@ -10,8 +10,14 @@ public class AiLocationTransform : AiLocationBase{
 	new public void Start()
 	{
 		base.Start();
-        if (tag != "")
-            aim = GameObject.FindGameObjectWithTag(aimTag).transform;
+        if (aimTag != "")
+        {
+            GameObject go = GameObject.FindGameObjectWithTag(aimTag);
+            if (go)
+                aim = go.transform;
+        }
+
+
 		if (!aim)
 			aim = transform;
 	}
