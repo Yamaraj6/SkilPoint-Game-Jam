@@ -10,8 +10,6 @@ public class KillCounter : MonoBehaviour
 	public void Awake()
 	{
 		_player = GameObject.Find("Player");
-		var objs = GameObject.FindGameObjectsWithTag("Player");
-		objs.ToList().ForEach(f => Debug.Log(f.name));
 	}
 	public void OnDeath (HealthController.DamageData data)
 	{
