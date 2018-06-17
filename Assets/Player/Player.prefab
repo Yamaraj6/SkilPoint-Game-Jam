@@ -1471,6 +1471,7 @@ MonoBehaviour:
   coolDown: {fileID: 0}
   prefab: {fileID: 1467747011115294, guid: c78f6fc5181781148b1c7acda74d8ec6, type: 2}
   audioSource: {fileID: 82419548471121310}
+  force: 20000
 --- !u!114 &114307510199515842
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1487,7 +1488,7 @@ MonoBehaviour:
   skillParticlesPrefab: {fileID: 1045362802684920, guid: c25f2356b2f4a7442a7b478f414c2d8b,
     type: 2}
   coolDown: {fileID: 0}
-  strength: 900
+  strength: 10000
 --- !u!114 &114384279266321780
 MonoBehaviour:
   m_ObjectHideFlags: 1
