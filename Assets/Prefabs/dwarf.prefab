@@ -28567,7 +28567,7 @@ MonoBehaviour:
   damageEnter:
     damage: 0
   damageStay:
-    damage: -15
+    damage: -7.5
   damageExit:
     damage: 0
   ignoreTag: Player
