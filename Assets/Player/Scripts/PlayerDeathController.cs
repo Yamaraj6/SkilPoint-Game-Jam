@@ -4,30 +4,39 @@ using UnityEngine;
 
 public class PlayerDeathController : MonoBehaviour
 {
-	public GameObject _sky;
-	private bool _isDead = false;
+    public GameObject canvas;
+    AudioClip clip;
+    public GameObject _sky;
+    private bool _isDead = false;
 
-	public void OnDeath (HealthController.DamageData data)
-	{
-		if (_isDead)
-			return;
+    private void Start()
+    {
+        canvas.SetActive(false);
+    }
 
-		_isDead = true;
-		Die();
-	}
+    public void OnDeath(HealthController.DamageData data)
+    {
+        if (_isDead)
+            return;
 
-	public void Die()
-	{
-		Instantiate (_sky, new Vector3 (gameObject.transform.position.x, _sky.transform.position.y, gameObject.transform.position.z), _sky.transform.rotation);
+        _isDead = true;
+        Die();
+    }
 
-		var playerStatisticsController = gameObject.GetComponent<PlayerStatisticsController> ();
-		gameObject.GetComponent<PlayerTimeCounter> ().StopCounting ();
-		Debug.Log ($"You survived {gameObject.GetComponent<PlayerTimeCounter>()._survivedTime} seconds");
-		playerStatisticsController.SetMaxSurvivedTime (gameObject.GetComponent<PlayerTimeCounter> ()._survivedTime);
-		playerStatisticsController.ResetGame ();
+    public void Die()
+    {
 
-		Debug.Log ("You DIED!");
-		Destroy(gameObject);
+        canvas.SetActive(true);
+        Instantiate(_sky, new Vector3(gameObject.transform.position.x, _sky.transform.position.y, gameObject.transform.position.z), _sky.transform.rotation);
 
-	}
+        var playerStatisticsController = gameObject.GetComponent<PlayerStatisticsController>();
+        gameObject.GetComponent<PlayerTimeCounter>().StopCounting();
+        Debug.Log($"You survived {gameObject.GetComponent<PlayerTimeCounter>()._survivedTime} seconds");
+        playerStatisticsController.SetMaxSurvivedTime(gameObject.GetComponent<PlayerTimeCounter>()._survivedTime);
+        playerStatisticsController.ResetGame();
+
+        Debug.Log("You DIED!");
+        Destroy(gameObject);
+
+    }
 }
