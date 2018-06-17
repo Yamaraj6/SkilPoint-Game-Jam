@@ -6960,7 +6960,7 @@ MonoBehaviour:
   max: 100
   regeneration: 0
   removeAfterDeath: 0
-  objectToRemove: {fileID: 1706831449602900}
+  objectToRemove: {fileID: 0}
 --- !u!136 &136061689819969192
 CapsuleCollider:
   m_ObjectHideFlags: 1
