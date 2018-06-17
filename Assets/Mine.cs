@@ -27,7 +27,7 @@ public class Mine : MonoBehaviour
 
         if (!isGrounded) return;
         if (collision.gameObject.tag == "Enemy" || collision.gameObject.tag == "Player"
-            || collision.gameObject.tag == "Explosion")
+            || collision.gameObject.tag == "Explosion" || collision.gameObject.tag == "Tree")
         {
             Explosion();
         }

@@ -23,7 +23,8 @@ GameObject:
   - component: {fileID: 23021846091766946}
   - component: {fileID: 114047404000365042}
   - component: {fileID: 114849025717184904}
-  - component: {fileID: 64490882331134000}
+  - component: {fileID: 114626362485134120}
+  - component: {fileID: 65848585169621102}
   m_Layer: 0
   m_Name: Trunk
   m_TagString: Untagged
@@ -78,7 +79,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1097258235857392}
   m_LocalRotation: {x: 0.021945177, y: -0.0057562157, z: 0.7346772, w: 0.6780373}
-  m_LocalPosition: {x: 2.9734, y: 0.35322, z: 1.0142}
+  m_LocalPosition: {x: 11.207279, y: 0.42220372, z: -7.493063}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 4507384920305972}
@@ -252,20 +253,6 @@ MeshCollider:
   m_CookingOptions: 14
   m_SkinWidth: 0.01
   m_Mesh: {fileID: 0}
---- !u!64 &64490882331134000
-MeshCollider:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1097258235857392}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Convex: 0
-  m_CookingOptions: 14
-  m_SkinWidth: 0.01
-  m_Mesh: {fileID: 0}
 --- !u!64 &64721013439866742
 MeshCollider:
   m_ObjectHideFlags: 1
@@ -280,6 +267,18 @@ MeshCollider:
   m_CookingOptions: 14
   m_SkinWidth: 0.01
   m_Mesh: {fileID: 0}
+--- !u!65 &65848585169621102
+BoxCollider:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1097258235857392}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.70901, y: 1.8738599, z: 0.70901096}
+  m_Center: {x: -0.000000014124958, y: 0.936929, z: -0.0000004785823}
 --- !u!114 &114047404000365042
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -7346,6 +7345,23 @@ MonoBehaviour:
   m_selectedFaces: 
   m_SelectedEdges: []
   m_selectedTriangles: 
+--- !u!114 &114626362485134120
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1097258235857392}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 89d0aa6eb71009e41818fffc6d4f46ab, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  type: 
+  actual: 100
+  max: 100
+  regeneration: 0
+  removeAfterDeath: 1
+  objectToRemove: {fileID: 0}
 --- !u!114 &114670176108787812
 MonoBehaviour:
   m_ObjectHideFlags: 1
