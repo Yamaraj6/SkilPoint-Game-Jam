@@ -25,7 +25,7 @@ GameObject:
   - component: {fileID: 114878811640747830}
   m_Layer: 0
   m_Name: Branches
-  m_TagString: Untagged
+  m_TagString: tree
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 127
@@ -45,7 +45,7 @@ GameObject:
   - component: {fileID: 135545613346828928}
   m_Layer: 0
   m_Name: Leaves
-  m_TagString: Untagged
+  m_TagString: tree
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 127
@@ -58,7 +58,6 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4884607355376484}
-  - component: {fileID: 114607967695276190}
   m_Layer: 0
   m_Name: Tree_1
   m_TagString: tree
@@ -82,9 +81,10 @@ GameObject:
   - component: {fileID: 114757204459050214}
   - component: {fileID: 114734477124794420}
   - component: {fileID: 136159591871203566}
+  - component: {fileID: 114370161579712194}
   m_Layer: 0
   m_Name: Trunk
-  m_TagString: Untagged
+  m_TagString: tree
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 127
@@ -103,7 +103,7 @@ GameObject:
   - component: {fileID: 114376282186752176}
   m_Layer: 0
   m_Name: Leaves
-  m_TagString: Untagged
+  m_TagString: tree
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 127
@@ -167,7 +167,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1453850549188590}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -1.1433513, y: -3.5, z: 12.219521}
+  m_LocalPosition: {x: 6.7438383, y: 0.42220372, z: 5.4084373}
   m_LocalScale: {x: 0, y: 0, z: 0}
   m_Children:
   - {fileID: 4278564413836026}
@@ -5920,8 +5920,20 @@ MonoBehaviour:
   actual: 100
   max: 100
   regeneration: 0
-  removeAfterDeath: 1
+  removeAfterDeath: 0
   objectToRemove: {fileID: 1453850549188590}
+--- !u!114 &114370161579712194
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1616154639213764}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c849648b6ac5a3948a2fd76c2f5dabb6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  main: {fileID: 1453850549188590}
 --- !u!114 &114376282186752176
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -9596,17 +9608,6 @@ MonoBehaviour:
   m_selectedFaces: 
   m_SelectedEdges: []
   m_selectedTriangles: 
---- !u!114 &114607967695276190
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1453850549188590}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c849648b6ac5a3948a2fd76c2f5dabb6, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!114 &114653715945866596
 MonoBehaviour:
   m_ObjectHideFlags: 1
