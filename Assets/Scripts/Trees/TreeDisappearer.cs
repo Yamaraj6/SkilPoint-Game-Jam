@@ -15,6 +15,7 @@ namespace SkilPoint_Game_Jam.Assets.Scripts.Trees
 		{
 			if (gameObject.GetComponent<Rigidbody> () != null)
 			{
+				Component.Destroy(gameObject.GetComponent<AiPerceiveUnit>());
 				_timeNow += Time.deltaTime;
 			}
 			if (_timeNow >= 2)

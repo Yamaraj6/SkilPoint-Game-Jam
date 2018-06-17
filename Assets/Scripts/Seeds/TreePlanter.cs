@@ -23,12 +23,18 @@ namespace SkilPoint_Game_Jam.Assets.Scripts.Seeds
         {
             for (int i = 0; i < numberOfTrees; i++)
             {
+                Animate();
                 var seed = Instantiate (_seed, this.transform.Find("SeedSpawnPoint").position , _seed.transform.rotation);
                 AddForceToSeed (seed);
             }
 
         }
 
+        private void Animate()
+        {
+            gameObject.GetComponent<CharacterControllerAction>().ThrowObject();
+
+        }
         private void AddForceToSeed (GameObject seed)
         {
             var forceVector = transform.forward*1000;
