@@ -464,7 +464,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: 514c8e9c75f669543b25e13841fbf01a, type: 3}
+  m_audioClip: {fileID: 8300000, guid: 3e11de5eb58e7f744bf70b853d8aae78, type: 3}
   m_PlayOnAwake: 0
   m_Volume: 0.5
   m_Pitch: 1
@@ -561,7 +561,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: 5929be7328909b24d8337001c2ed32c1, type: 3}
   m_PlayOnAwake: 0
-  m_Volume: 0.5
+  m_Volume: 0.3
   m_Pitch: 1
   Loop: 0
   Mute: 0
@@ -1270,8 +1270,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7742fc114466b4341ac97bafd39dfdca, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  timeTakenDuringLerp: 1
-  distanceToMove: 10
+  timeTakenDuringLerp: 0.5
+  distanceToMove: 1
   _isLerping: 0
 --- !u!114 &114732223102009582
 MonoBehaviour:

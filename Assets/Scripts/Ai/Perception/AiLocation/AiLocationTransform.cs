@@ -5,10 +5,13 @@ using UnityEngine;
 public class AiLocationTransform : AiLocationBase{
 
 	public Transform aim;
+    public string aimTag;
 
 	new public void Start()
 	{
 		base.Start();
+        if (tag != "")
+            aim = GameObject.FindGameObjectWithTag(aimTag).transform;
 		if (!aim)
 			aim = transform;
 	}
