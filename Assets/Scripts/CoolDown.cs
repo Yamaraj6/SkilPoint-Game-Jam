@@ -55,7 +55,7 @@ public class CoolDown : MonoBehaviour
             //Perform the actual lerping.  Notice that the first two parameters will always be the same
             //throughout a single lerp-processs (ie. they won't change until we hit the space-bar again
             //to start another lerp)
-            image.fillAmount = Mathf.Lerp(origin, destination, percentageComplete/300);
+            image.fillAmount = Mathf.Lerp(origin, destination, percentageComplete/360);
 
             //When we've completed the lerp, we set _isLerping to false
             if (percentageComplete >= 1.0f)
