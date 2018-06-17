@@ -62,9 +62,11 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4925538658161184}
+  - component: {fileID: 136494203629119812}
+  - component: {fileID: 114848532720449306}
   m_Layer: 0
   m_Name: Tree_2
-  m_TagString: Untagged
+  m_TagString: tree
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3927,6 +3929,17 @@ MonoBehaviour:
   fraction: {fileID: 114938677181360680}
   health: {fileID: 0}
   mind: {fileID: 0}
+--- !u!114 &114848532720449306
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1915919596698884}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c849648b6ac5a3948a2fd76c2f5dabb6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!114 &114881241779502134
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -5840,3 +5853,16 @@ CapsuleCollider:
   m_Height: 4.150637
   m_Direction: 1
   m_Center: {x: 0, y: 2.0753186, z: 0}
+--- !u!136 &136494203629119812
+CapsuleCollider:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1915919596698884}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  m_Radius: 0.5
+  m_Height: 1
+  m_Direction: 1
+  m_Center: {x: 0, y: 0, z: 0}
