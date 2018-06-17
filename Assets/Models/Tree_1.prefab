@@ -58,11 +58,10 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4884607355376484}
-  - component: {fileID: 136406225866091102}
   - component: {fileID: 114607967695276190}
   m_Layer: 0
   m_Name: Tree_1
-  m_TagString: Explosion
+  m_TagString: tree
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -11575,16 +11574,3 @@ CapsuleCollider:
   m_Height: 3.9260676
   m_Direction: 1
   m_Center: {x: 0, y: 1.9630338, z: 0}
---- !u!136 &136406225866091102
-CapsuleCollider:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1453850549188590}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  m_Radius: 0.5
-  m_Height: 4.891528
-  m_Direction: 1
-  m_Center: {x: 0, y: 1.9457641, z: 0}
