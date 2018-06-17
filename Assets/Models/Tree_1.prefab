@@ -5921,7 +5921,7 @@ MonoBehaviour:
   max: 100
   regeneration: 0
   removeAfterDeath: 0
-  objectToRemove: {fileID: 1453850549188590}
+  objectToRemove: {fileID: 0}
 --- !u!114 &114370161579712194
 MonoBehaviour:
   m_ObjectHideFlags: 1

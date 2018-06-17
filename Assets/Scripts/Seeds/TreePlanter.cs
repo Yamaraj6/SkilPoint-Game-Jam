@@ -23,7 +23,8 @@ namespace SkilPoint_Game_Jam.Assets.Scripts.Seeds
         {
             for (int i = 0; i < numberOfTrees; i++)
             {
-                var seed = Instantiate (_seed, this.transform.Find("SeedSpawnPoint").position , _seed.transform.rotation);
+                gameObject.GetComponent<CharacterControllerAction> ().ThrowObject ();
+                var seed = Instantiate (_seed, this.transform.Find ("SeedSpawnPoint").position, _seed.transform.rotation);
                 AddForceToSeed (seed);
             }
 
@@ -31,15 +32,15 @@ namespace SkilPoint_Game_Jam.Assets.Scripts.Seeds
 
         private void AddForceToSeed (GameObject seed)
         {
-            var forceVector = transform.forward*1000;
-       /*     if (rand <= 1)
-                forceVector = new Vector3 (0, _verticalPower, _horizontalPower) * 100;
-            if (rand <= 2 && rand>1)
-                forceVector = new Vector3 (0,_verticalPower , -_horizontalPower) * 100;
-            if (rand <= 3&& rand>2)
-                forceVector = new Vector3 (_horizontalPower, _verticalPower, 0) * 100;
-            if (rand <= 4&&rand>3)
-                forceVector = new Vector3 (-_horizontalPower, _verticalPower, 0) * 100;*/
+            var forceVector = transform.forward * 1000;
+            /*     if (rand <= 1)
+                     forceVector = new Vector3 (0, _verticalPower, _horizontalPower) * 100;
+                 if (rand <= 2 && rand>1)
+                     forceVector = new Vector3 (0,_verticalPower , -_horizontalPower) * 100;
+                 if (rand <= 3&& rand>2)
+                     forceVector = new Vector3 (_horizontalPower, _verticalPower, 0) * 100;
+                 if (rand <= 4&&rand>3)
+                     forceVector = new Vector3 (-_horizontalPower, _verticalPower, 0) * 100;*/
             seed.GetComponent<Rigidbody> ().AddForce (forceVector);
 
         }
