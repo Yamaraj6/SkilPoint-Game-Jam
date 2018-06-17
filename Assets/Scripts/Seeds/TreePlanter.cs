@@ -26,6 +26,7 @@ namespace SkilPoint_Game_Jam.Assets.Scripts.Seeds
         {
             for (int i = 0; i < 1; i++)
             {
+                gameObject.GetComponent<CharacterControllerAction>().ThrowObject();
                 var seed = Instantiate(_seed, this.transform.Find("SeedSpawnPoint").position, _seed.transform.rotation);
                 AddForceToSeed(seed);
             }
