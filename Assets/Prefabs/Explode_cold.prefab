@@ -91,6 +91,7 @@ GameObject:
   - component: {fileID: 199446518357591174}
   - component: {fileID: 82527425218512580}
   - component: {fileID: 114135755119067708}
+  - component: {fileID: 114354072191613764}
   m_Layer: 0
   m_Name: Explode_cold
   m_TagString: Explosion
@@ -273,6 +274,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cc429f5a18f0dc04b9d3253106a202d2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &114354072191613764
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1777845916198654}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c8596457322601947832916538f3f396, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  timer:
+    cd: 2
 --- !u!198 &198292949768688280
 ParticleSystem:
   m_ObjectHideFlags: 1

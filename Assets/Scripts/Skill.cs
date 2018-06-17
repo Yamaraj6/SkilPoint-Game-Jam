@@ -9,7 +9,7 @@ public abstract class Skill : MonoBehaviour
     [SerializeField] protected Transform skillSpawnPoint;
 
     [SerializeField] protected GameObject skillParticlesPrefab;
-    [SerializeField] protected float coolDown;
+    [SerializeField] public CoolDown coolDown;
 
     protected void InstantiateParticles()
     {
@@ -18,7 +18,10 @@ public abstract class Skill : MonoBehaviour
 
     private void Update()
     {
-        if (Input.GetKeyDown(activeSkillKey))
+        if (Input.GetKeyDown(activeSkillKey) && !coolDown._isLerping)
+        {
             ActiveSkill();
+            coolDown.StartLerping();
+        }
     }
 }

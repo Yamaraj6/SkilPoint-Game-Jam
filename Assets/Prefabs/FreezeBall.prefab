@@ -29,6 +29,7 @@ GameObject:
   - component: {fileID: 114645788477855876}
   - component: {fileID: 114207221420768566}
   - component: {fileID: 114847138575768722}
+  - component: {fileID: 114458584504998340}
   m_Layer: 0
   m_Name: FreezeBall
   m_TagString: Untagged
@@ -246,6 +247,19 @@ MonoBehaviour:
   fraction: {fileID: 114847138575768722}
   attachCd:
     cd: 0
+--- !u!114 &114458584504998340
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1022210032050866}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c8596457322601947832916538f3f396, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  timer:
+    cd: 10
 --- !u!114 &114480716554001902
 MonoBehaviour:
   m_ObjectHideFlags: 1
