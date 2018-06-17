@@ -9,6 +9,11 @@ TagManager:
   - Explosion
   - tree
   - Destructable
+  - TeleportSkill
+  - Push
+  - Freeze
+  - Mine
+  - SeedSkill
   layers:
   - Default
   - TransparentFX

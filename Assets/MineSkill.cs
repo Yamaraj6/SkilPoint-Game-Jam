@@ -6,6 +6,12 @@ public class MineSkill : Skill
 {
     public float strength = 100;
 
+    override protected void Start()
+    {
+        base.Start();
+        coolDown = GameObject.FindGameObjectWithTag("Mine").GetComponent<CoolDown>();
+    }
+
     protected override void ActiveSkill()
     {
         gameObject.GetComponent<CharacterControllerAction>().ThrowObject();
