@@ -35,7 +35,7 @@ public class AiMovement : MonoBehaviour
     private void FixedUpdate()
 	{
 
-        if (groundCheck.isGrounded)
+        //if (groundCheck.isGrounded)
         {
             if (influencePosition.sqrMagnitude > maximalMovementSpeed * maximalMovementSpeed)
             {
@@ -48,9 +48,9 @@ public class AiMovement : MonoBehaviour
                 body.AddForce(new Vector3(v.x, 0, v.y));
             }
         }
-        else
+        //else
         {
-            influencePosition = Vector2.zero;
+           // influencePosition = Vector2.zero;
         }
 
         //Debug.Log((groundCheck.isGrounded));

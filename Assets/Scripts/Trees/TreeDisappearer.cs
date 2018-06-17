@@ -7,33 +7,40 @@ namespace SkilPoint_Game_Jam.Assets.Scripts.Trees
 
 	public class TreeDisappearer : MonoBehaviour
 	{
-
-		private float _timeNow = 0;
-
+        public GameObject main;
+        private Timer t = new Timer();
+		
 		// Update is called once per frame
 		void Update ()
 		{
-			if (gameObject.GetComponent<Rigidbody> () != null)
-			{
-				Component.Destroy(gameObject.GetComponent<AiPerceiveUnit>());
-				_timeNow += Time.deltaTime;
-			}
-			if (_timeNow >= 2)
-			{
-				var collider = gameObject.GetComponentsInChildren<Collider> ();
-				var rgs = gameObject.GetComponentsInChildren<Rigidbody> ();
-				collider.ToList ().ForEach (f => f.isTrigger = true);
 
-				rgs.ToList ().ForEach (f => f.mass = 20);
-				rgs.ToList ().ForEach (f => f.AddForce (Vector3.right));
-				rgs.ToList ().ForEach (f => f.AddForce (Vector3.down));
-				_timeNow += Time.deltaTime;
+            if(t.isReady(2.5f) && main.GetComponent<Rigidbody>() != null)
+            {
+                var collider = main.GetComponentsInChildren<Collider>();
 
-			}
-			if (_timeNow >= 10)
-			{
-				Destroy (gameObject);
-			}
+                var rgs = main.GetComponent<Rigidbody>();
+                collider.ToList().ForEach(f => 
+                    f.isTrigger = true
+               );
+
+                rgs.mass = 20;
+                rgs.drag = 1;
+                rgs.AddForce(Vector3.right + Vector3.down);
+                if(t.isReady(5))
+                    Destroy(main);
+            }
 		}
-	}
+
+        public void OnDeath(HealthController.DamageData data)
+        {
+            if (main.GetComponent<Rigidbody>() == null)
+            {
+                main.AddComponent<Rigidbody>();
+                Destroy(GetComponentInChildren<AiPerceiveUnit>());
+                t.restart();
+            }
+        }
+    }
+
+    
 }
