@@ -17,6 +17,6 @@ public class KillCounter : MonoBehaviour
             return;
 
 	    _isDead = true;
-		_player.GetComponent<PlayerStatisticsController>().AddToActualKillCount(1);
+		_player.GetComponent<PlayerStatisticsController>()?.AddToActualKillCount(1);
 	}
 }

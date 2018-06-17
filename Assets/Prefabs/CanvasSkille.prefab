@@ -793,7 +793,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7742fc114466b4341ac97bafd39dfdca, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  timeTakenDuringLerp: 19
+  timeTakenDuringLerp: 4
   distanceToMove: 10
   _isLerping: 0
 --- !u!114 &114123255658200974
@@ -821,6 +821,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cacdaf0c895ca5547839ac6b1e6d8697, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  MaxPoints: 10
+  MaxTrees: 1000
   playerStatisticsController: {fileID: 0}
   playerTimeCounter: {fileID: 0}
   imagePoints: {fileID: 114605198810280558}
@@ -1714,7 +1716,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0.000061035156, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!224 &224376116524279256
