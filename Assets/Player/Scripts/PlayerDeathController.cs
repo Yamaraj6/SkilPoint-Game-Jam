@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class PlayerDeathController : MonoBehaviour
 {
+	public GameObject _sky;
     private bool _isDead = false;
 
 
@@ -13,6 +14,8 @@ public class PlayerDeathController : MonoBehaviour
 	        return;
 
 	    _isDead = true;
+				Instantiate(_sky, new Vector3(gameObject.transform.position.x , _sky.transform.position.y, gameObject.transform.position.z) , _sky.transform.rotation);
+
         var playerStatisticsController = gameObject.GetComponent<PlayerStatisticsController> ();
 	    gameObject.GetComponent<PlayerTimeCounter>().StopCounting();
         Debug.Log($"You survived {gameObject.GetComponent<PlayerTimeCounter>()._survivedTime} seconds");
