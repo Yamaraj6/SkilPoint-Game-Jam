@@ -16,7 +16,7 @@ public class PlayerStatisticsController : MonoBehaviour
         SpendingPoints = 1000
     };
 	// Use this for initialization
-	private int _actualKills = 0;
+	public int _actualKills = 0;
 	private void Awake ()
 	{
         var jsonString = PlayerPrefs.GetString(_key, JsonUtility.ToJson(_startupPlayer));
