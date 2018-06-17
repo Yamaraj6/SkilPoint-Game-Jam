@@ -8,7 +8,7 @@ public class Teleport : Skill
     ParticleSystem origin;
     ParticleSystem end;
     Rigidbody rb;
-   public AudioSource audioSource;
+    public AudioSource audioSource;
     float force = 10000;
 
     protected override void ActiveSkill()
@@ -16,7 +16,7 @@ public class Teleport : Skill
         audioSource.Play();
         origin.Emit(40);
         origin.transform.position = transform.position;
-        rb.AddForce (transform.forward * force, ForceMode.Acceleration);
+        rb.AddForce(transform.forward * force, ForceMode.Acceleration);
         EmitEnd();
     }
 
@@ -31,7 +31,7 @@ public class Teleport : Skill
         rb = GetComponent<Rigidbody>();
         base.Start();
         origin = Instantiate(prefab, transform.position, Quaternion.identity).GetComponent<ParticleSystem>();
-       // origin.transform.SetParent(transform);
+        // origin.transform.SetParent(transform);
 
         end = Instantiate(prefab, transform.position, Quaternion.identity).GetComponent<ParticleSystem>();
         end.transform.SetParent(transform);
