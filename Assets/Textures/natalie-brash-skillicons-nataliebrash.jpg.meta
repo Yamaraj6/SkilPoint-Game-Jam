@@ -1,0 +1,1985 @@
+fileFormatVersion: 2
+guid: 9eaa4155a8b6f7c4ca767a029cb11a2b
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: natalie-brash-skillicons-nataliebrash_0
+    21300002: natalie-brash-skillicons-nataliebrash_1
+    21300004: natalie-brash-skillicons-nataliebrash_2
+    21300006: natalie-brash-skillicons-nataliebrash_3
+    21300008: natalie-brash-skillicons-nataliebrash_4
+    21300010: natalie-brash-skillicons-nataliebrash_5
+    21300012: natalie-brash-skillicons-nataliebrash_6
+    21300014: natalie-brash-skillicons-nataliebrash_7
+    21300016: natalie-brash-skillicons-nataliebrash_8
+    21300018: natalie-brash-skillicons-nataliebrash_9
+    21300020: natalie-brash-skillicons-nataliebrash_10
+    21300022: natalie-brash-skillicons-nataliebrash_11
+    21300024: natalie-brash-skillicons-nataliebrash_12
+    21300026: natalie-brash-skillicons-nataliebrash_13
+    21300028: natalie-brash-skillicons-nataliebrash_14
+    21300030: natalie-brash-skillicons-nataliebrash_15
+    21300032: natalie-brash-skillicons-nataliebrash_16
+    21300034: natalie-brash-skillicons-nataliebrash_17
+    21300036: natalie-brash-skillicons-nataliebrash_18
+    21300038: natalie-brash-skillicons-nataliebrash_19
+    21300040: natalie-brash-skillicons-nataliebrash_20
+    21300042: natalie-brash-skillicons-nataliebrash_21
+    21300044: natalie-brash-skillicons-nataliebrash_22
+    21300046: natalie-brash-skillicons-nataliebrash_23
+    21300048: natalie-brash-skillicons-nataliebrash_24
+    21300050: natalie-brash-skillicons-nataliebrash_25
+    21300052: natalie-brash-skillicons-nataliebrash_26
+    21300054: natalie-brash-skillicons-nataliebrash_27
+    21300056: natalie-brash-skillicons-nataliebrash_28
+    21300058: natalie-brash-skillicons-nataliebrash_29
+    21300060: natalie-brash-skillicons-nataliebrash_30
+    21300062: natalie-brash-skillicons-nataliebrash_31
+    21300064: natalie-brash-skillicons-nataliebrash_32
+    21300066: natalie-brash-skillicons-nataliebrash_33
+    21300068: natalie-brash-skillicons-nataliebrash_34
+    21300070: natalie-brash-skillicons-nataliebrash_35
+    21300072: natalie-brash-skillicons-nataliebrash_36
+    21300074: natalie-brash-skillicons-nataliebrash_37
+    21300076: natalie-brash-skillicons-nataliebrash_38
+    21300078: natalie-brash-skillicons-nataliebrash_39
+    21300080: natalie-brash-skillicons-nataliebrash_40
+    21300082: natalie-brash-skillicons-nataliebrash_41
+    21300084: natalie-brash-skillicons-nataliebrash_42
+    21300086: natalie-brash-skillicons-nataliebrash_43
+    21300088: natalie-brash-skillicons-nataliebrash_44
+    21300090: natalie-brash-skillicons-nataliebrash_45
+    21300092: natalie-brash-skillicons-nataliebrash_46
+    21300094: natalie-brash-skillicons-nataliebrash_47
+    21300096: natalie-brash-skillicons-nataliebrash_48
+    21300098: natalie-brash-skillicons-nataliebrash_49
+    21300100: natalie-brash-skillicons-nataliebrash_50
+    21300102: natalie-brash-skillicons-nataliebrash_51
+    21300104: natalie-brash-skillicons-nataliebrash_52
+    21300106: natalie-brash-skillicons-nataliebrash_53
+    21300108: natalie-brash-skillicons-nataliebrash_54
+    21300110: natalie-brash-skillicons-nataliebrash_55
+    21300112: natalie-brash-skillicons-nataliebrash_56
+    21300114: natalie-brash-skillicons-nataliebrash_57
+    21300116: natalie-brash-skillicons-nataliebrash_58
+    21300118: natalie-brash-skillicons-nataliebrash_59
+    21300120: natalie-brash-skillicons-nataliebrash_60
+    21300122: natalie-brash-skillicons-nataliebrash_61
+    21300124: natalie-brash-skillicons-nataliebrash_62
+    21300126: natalie-brash-skillicons-nataliebrash_63
+    21300128: natalie-brash-skillicons-nataliebrash_64
+    21300130: natalie-brash-skillicons-nataliebrash_65
+    21300132: natalie-brash-skillicons-nataliebrash_66
+    21300134: natalie-brash-skillicons-nataliebrash_67
+    21300136: natalie-brash-skillicons-nataliebrash_68
+    21300138: natalie-brash-skillicons-nataliebrash_69
+    21300140: natalie-brash-skillicons-nataliebrash_70
+    21300142: natalie-brash-skillicons-nataliebrash_71
+    21300144: natalie-brash-skillicons-nataliebrash_72
+    21300146: natalie-brash-skillicons-nataliebrash_73
+    21300148: natalie-brash-skillicons-nataliebrash_74
+    21300150: natalie-brash-skillicons-nataliebrash_75
+    21300152: natalie-brash-skillicons-nataliebrash_76
+    21300154: natalie-brash-skillicons-nataliebrash_77
+    21300156: natalie-brash-skillicons-nataliebrash_78
+    21300158: natalie-brash-skillicons-nataliebrash_79
+    21300160: natalie-brash-skillicons-nataliebrash_80
+    21300162: natalie-brash-skillicons-nataliebrash_81
+    21300164: natalie-brash-skillicons-nataliebrash_82
+    21300166: natalie-brash-skillicons-nataliebrash_83
+    21300168: natalie-brash-skillicons-nataliebrash_84
+    21300170: natalie-brash-skillicons-nataliebrash_85
+    21300172: natalie-brash-skillicons-nataliebrash_86
+    21300174: natalie-brash-skillicons-nataliebrash_87
+    21300176: natalie-brash-skillicons-nataliebrash_88
+    21300178: natalie-brash-skillicons-nataliebrash_89
+  externalObjects: {}
+  serializedVersion: 5
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -1
+    wrapU: 1
+    wrapV: 1
+    wrapW: -1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 2
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: natalie-brash-skillicons-nataliebrash_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1065
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c1ebc1bd5b752bf4cab26d60a689e1f9
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: natalie-brash-skillicons-nataliebrash_1
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 1065
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22cbf2a168881734faa6d0b8cc4c11f4
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: natalie-brash-skillicons-nataliebrash_2
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 1065
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ccd51370840ada4eb00461ba15b5e8c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: natalie-brash-skillicons-nataliebrash_3
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 1065
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e1962f52263346b4eb58e04b6ef90965
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: natalie-brash-skillicons-nataliebrash_4
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 1065
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b13bc81283b54249bda1725e2834b1c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: natalie-brash-skillicons-nataliebrash_5
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 1065
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 890bc5f6a267e934db6bd9c28822a0d7
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: natalie-brash-skillicons-nataliebrash_6
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 1065
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a7c1eda2ce384f44aac846796eba5422
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: natalie-brash-skillicons-nataliebrash_7
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 1065
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a205d0709928e945b8c23ea8708cdb4
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: natalie-brash-skillicons-nataliebrash_8
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 1065
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1caf7e0eaf08b6343805006fb7d3b012
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: natalie-brash-skillicons-nataliebrash_9
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 1065
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 062e82e487f3d5a459dc6783adf54927
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: natalie-brash-skillicons-nataliebrash_10
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 937
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae05296c35b2a2e4da9d397d1c66cd6f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: natalie-brash-skillicons-nataliebrash_11
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 937
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ddb3cfe4954c164abe87f6120779e9f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: natalie-brash-skillicons-nataliebrash_12
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 937
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b6dc3450d9e42645936108c1d8c3144
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: natalie-brash-skillicons-nataliebrash_13
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 937
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9803ffcd488018340855859591cbeff8
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: natalie-brash-skillicons-nataliebrash_14
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 937
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d082e3e8cf9b97a4fbd19c7ad925513b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: natalie-brash-skillicons-nataliebrash_15
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 937
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f682a4304abc0742951faf4baba053c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: natalie-brash-skillicons-nataliebrash_16
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 937
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a8570b717ba62c949aa5a0d002a2b447
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: natalie-brash-skillicons-nataliebrash_17
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 937
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f842dda37b764c41b6aa6c128cc5932
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: natalie-brash-skillicons-nataliebrash_18
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 937
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e3a6ac65aaf6a8942843a13f9448a793
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: natalie-brash-skillicons-nataliebrash_19
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 937
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7745d55428786164bb2bf800b214925c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: natalie-brash-skillicons-nataliebrash_20
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 809
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f6fdc677faf4a84a89b04a6b2ba3169
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: natalie-brash-skillicons-nataliebrash_21
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 809
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba49633a7c3be914794b817c39767170
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: natalie-brash-skillicons-nataliebrash_22
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 809
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f1231b200a9eb046a9f8e21542dae03
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: natalie-brash-skillicons-nataliebrash_23
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 809
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e50a6d9ae22cc449a4a3ff5568f5da2
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: natalie-brash-skillicons-nataliebrash_24
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 809
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d03e7ebe39a5fb942b17c7b1f5841252
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: natalie-brash-skillicons-nataliebrash_25
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 809
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9306853b3b18315459db32d387d93fcb
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: natalie-brash-skillicons-nataliebrash_26
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 809
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3928fa06cb1fe1a4e8b14b8dc7da3247
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: natalie-brash-skillicons-nataliebrash_27
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 809
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 10a4e6115344ced4e8f9c1f35094872a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: natalie-brash-skillicons-nataliebrash_28
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 809
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e05aad807a023449a73285ad61112c3
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: natalie-brash-skillicons-nataliebrash_29
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 809
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 05509c92350896a4c8d06bc8729458c5
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: natalie-brash-skillicons-nataliebrash_30
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 681
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d14331b73d5c5e49a7a9dee5bd69fd5
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: natalie-brash-skillicons-nataliebrash_31
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 681
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 241fc26d3681ab048ad6ccc83c1f40e8
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: natalie-brash-skillicons-nataliebrash_32
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 681
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d3a93c5c20549e44bab157fcb4e449c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: natalie-brash-skillicons-nataliebrash_33
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 681
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c3148653a622b0948bc85cf7651e7a34
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: natalie-brash-skillicons-nataliebrash_34
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 681
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 97c9470073207ae4e9109a32e986b82d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: natalie-brash-skillicons-nataliebrash_35
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 681
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d7acda40ec59ff741a385e1cc57070d3
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: natalie-brash-skillicons-nataliebrash_36
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 681
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb0019c17b076034ba7b6e50b4109714
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: natalie-brash-skillicons-nataliebrash_37
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 681
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d55c4bd2841b07344a87843c1593dbc0
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: natalie-brash-skillicons-nataliebrash_38
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 681
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bbdc66ec216f28243b41a3a610d250e7
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: natalie-brash-skillicons-nataliebrash_39
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 681
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 615b2c30a70c9c848841316868a2ef55
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: natalie-brash-skillicons-nataliebrash_40
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 553
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b92ebabcb4b8744d901351cc66c0e87
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: natalie-brash-skillicons-nataliebrash_41
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 553
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 158c903a15c872b409b37c79bd4e69af
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: natalie-brash-skillicons-nataliebrash_42
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 553
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29e5ffa2c244a8c42aebb698a63335a1
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: natalie-brash-skillicons-nataliebrash_43
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 553
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d08e900c99a926f42abb0d77c73f767c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: natalie-brash-skillicons-nataliebrash_44
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 553
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b8db2b4bb2c8fee419f2fc4ea83e288f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: natalie-brash-skillicons-nataliebrash_45
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 553
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c0ae3edfb763ff43a7b0a6c9c670be6
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: natalie-brash-skillicons-nataliebrash_46
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 553
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 549e052be52d2504385a63845c5f21c8
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: natalie-brash-skillicons-nataliebrash_47
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 553
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea455424b1f05c54ebffd32dfb6ff299
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: natalie-brash-skillicons-nataliebrash_48
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 553
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b86e6d1412a590f449936a3b8a04d36f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: natalie-brash-skillicons-nataliebrash_49
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 553
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a68dae75afb387c41aab7d9fdd892293
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: natalie-brash-skillicons-nataliebrash_50
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 425
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe14d55b04e892043a6eeece79e2ae60
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: natalie-brash-skillicons-nataliebrash_51
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 425
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fbe99715fdb4fac41b4ed9587f786bba
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: natalie-brash-skillicons-nataliebrash_52
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 425
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b4a61db97e8a0f46849a0cb625d224c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: natalie-brash-skillicons-nataliebrash_53
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 425
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a935d1d5fe22f245ae6735edeedd1dd
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: natalie-brash-skillicons-nataliebrash_54
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 425
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9689d252dbc425041aba47d735fafd56
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: natalie-brash-skillicons-nataliebrash_55
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 425
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a9a61024ceb164940835786a714efb05
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: natalie-brash-skillicons-nataliebrash_56
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 425
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea5e46f6c0b2aa047b398ccb229cdf15
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: natalie-brash-skillicons-nataliebrash_57
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 425
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 37e1f599d479de241bb704849c4d9941
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: natalie-brash-skillicons-nataliebrash_58
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 425
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8666cf87dd50ee145ba80fd9f396f3f6
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: natalie-brash-skillicons-nataliebrash_59
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 425
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d2edea53a6e68f24fa9e5741c1038513
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: natalie-brash-skillicons-nataliebrash_60
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 297
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c1965ed7e583e9842b2bf850879c63cc
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: natalie-brash-skillicons-nataliebrash_61
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 297
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8aa438322cd1ec941a9ce41aff2bf31b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: natalie-brash-skillicons-nataliebrash_62
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 297
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 91cf2e26b13567645a8a7c8c62c7b372
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: natalie-brash-skillicons-nataliebrash_63
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 297
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 136e29b69e3d7a04b939e8e0b59c02f2
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: natalie-brash-skillicons-nataliebrash_64
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 297
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd7af8197c390db41a848c4b9d8d704a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: natalie-brash-skillicons-nataliebrash_65
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 297
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d844e4aee06393c4b916760955d575e2
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: natalie-brash-skillicons-nataliebrash_66
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 297
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba2343488742cae408f767a6fb54851f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: natalie-brash-skillicons-nataliebrash_67
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 297
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e4dad8aca00fb6c42af492c720fa893e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: natalie-brash-skillicons-nataliebrash_68
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 297
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea85b27169968e641ae04f681f7f1fa4
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: natalie-brash-skillicons-nataliebrash_69
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 297
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b4d1395b4ae19546851132a17aad3d6
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: natalie-brash-skillicons-nataliebrash_70
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 169
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1da02b890afc1e24d88e719f98a5244c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: natalie-brash-skillicons-nataliebrash_71
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 169
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e830f9f7ad1fcee4a812bc7c19dc60f2
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: natalie-brash-skillicons-nataliebrash_72
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 169
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f502ab255e44dea4484dc2cbac0bf43b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: natalie-brash-skillicons-nataliebrash_73
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 169
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 25ab39aad86cade49b76cd08cfef937c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: natalie-brash-skillicons-nataliebrash_74
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 169
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 708d8564ac976c74083b19cc634f560d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: natalie-brash-skillicons-nataliebrash_75
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 169
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2dc62c6f63396104ea76b622a4cf52d3
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: natalie-brash-skillicons-nataliebrash_76
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 169
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 245c9b69ecbaab54ca0dc35239fd51b9
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: natalie-brash-skillicons-nataliebrash_77
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 169
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bac06cee941fd9844ad54dd7c9f416b3
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: natalie-brash-skillicons-nataliebrash_78
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 169
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 263ea59280cb757499a801c3431ca103
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: natalie-brash-skillicons-nataliebrash_79
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 169
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5534316c9f9397d46922b9810d7f5efa
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: natalie-brash-skillicons-nataliebrash_80
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 41
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f655a92b1c24f6468ef343a387ea1d5
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: natalie-brash-skillicons-nataliebrash_81
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 41
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b37e3f84d8cfe04796e3e99535bbda0
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: natalie-brash-skillicons-nataliebrash_82
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 41
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a6c136f8654968649b1767897bbc5481
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: natalie-brash-skillicons-nataliebrash_83
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 41
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68e04793612d9a7408060f1d042971c2
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: natalie-brash-skillicons-nataliebrash_84
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 41
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ffbaa3151351bc4fa225005368bf61d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: natalie-brash-skillicons-nataliebrash_85
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 41
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 994da5b6081a6a34fba4c753ce260545
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: natalie-brash-skillicons-nataliebrash_86
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 41
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56750deb78206bf40ae31b4f6749a0b0
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: natalie-brash-skillicons-nataliebrash_87
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 41
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f212fde4116f5947a49078e3e079be8
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: natalie-brash-skillicons-nataliebrash_88
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 41
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d6aed557ce516b34abda76619371ed04
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: natalie-brash-skillicons-nataliebrash_89
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 41
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ac5b4e536519194b85ec6601910c4b1
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: d791625f5236bc544a22d738b969a7c6
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
