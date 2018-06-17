@@ -400,6 +400,9 @@ GameObject:
   - component: {fileID: 114003181704299408}
   - component: {fileID: 114950366424946870}
   - component: {fileID: 114297045833208788}
+  - component: {fileID: 114724978111540692}
+  - component: {fileID: 114411163759494796}
+  - component: {fileID: 114446687522999150}
   m_Layer: 0
   m_Name: Player
   m_TagString: Player
@@ -1340,7 +1343,7 @@ MonoBehaviour:
   skillSpawnPoint: {fileID: 4943767407483750}
   skillParticlesPrefab: {fileID: 1045362802684920, guid: c25f2356b2f4a7442a7b478f414c2d8b,
     type: 2}
-  coolDown: 2
+  coolDown: {fileID: 0}
   strength: 900
 --- !u!114 &114384279266321780
 MonoBehaviour:
@@ -1357,7 +1360,21 @@ MonoBehaviour:
   skillSpawnPoint: {fileID: 4943767407483750}
   skillParticlesPrefab: {fileID: 1022210032050866, guid: de70fba9b9ec0f24d8e714f27a304052,
     type: 2}
-  coolDown: 2
+  coolDown: {fileID: 0}
+--- !u!114 &114411163759494796
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1644810346353242}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f966943b0e3d6bd40b07a6b0569998f9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  fractionName: Player
+  friendlyFractions: []
+  enemyFractions: []
 --- !u!114 &114434997197632892
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1369,10 +1386,32 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 18f8f7f7b78c37a40a30f103ef6e5586, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  activeSkillKey: 0
+  skillSpawnPoint: {fileID: 0}
+  skillParticlesPrefab: {fileID: 0}
+  coolDown: {fileID: 0}
   _sound: {fileID: 0}
   _seed: {fileID: 1755522466826906, guid: 38de4e737da15ce4ab77ddfb60c968f6, type: 2}
   _verticalPower: 5
   _horizontalPower: 1
+--- !u!114 &114446687522999150
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1644810346353242}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5a3db3dbb54a78b4d9c63366c14b75e7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  distanceModificator: 1
+  blocksVision: 1
+  type: obstacle
+  dangerFractor: 0
+  fraction: {fileID: 0}
+  health: {fileID: 0}
+  mind: {fileID: 0}
 --- !u!114 &114452883502013148
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1432,10 +1471,25 @@ MonoBehaviour:
   skillSpawnPoint: {fileID: 4943767407483750}
   skillParticlesPrefab: {fileID: 1003898510224590, guid: 991397b662e4e5f49926b40a252322bb,
     type: 2}
-  coolDown: 2
+  coolDown: {fileID: 0}
   radius: 5
   power: 1000
 --- !u!114 &114645128035918444
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1644810346353242}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 14bc4ae04857dd345a385081dd1151a8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  bodyParts:
+  - {fileID: 1379842123641510}
+  - {fileID: 1391021909842336}
+  bodyCutEffect: {fileID: 0}
+--- !u!114 &114724978111540692
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
