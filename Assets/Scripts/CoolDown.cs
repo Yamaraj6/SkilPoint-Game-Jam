@@ -58,7 +58,6 @@ public class CoolDown : MonoBehaviour
             image.fillAmount = Mathf.Lerp(origin, destination, percentageComplete/300);
 
             //When we've completed the lerp, we set _isLerping to false
-            Debug.Log(percentageComplete);
             if (percentageComplete >= 1.0f)
             {
                 audioSource.Play();
