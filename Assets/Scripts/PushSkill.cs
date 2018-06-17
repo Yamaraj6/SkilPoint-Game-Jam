@@ -7,6 +7,11 @@ public class PushSkill : Skill
     public float radius = 5.0F;
     public float power = 10.0F;
 
+    override protected void Start()
+    {
+        base.Start();
+        coolDown = GameObject.FindGameObjectWithTag("Push").GetComponent<CoolDown>();
+    }
 
     protected override void ActiveSkill()
     {

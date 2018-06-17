@@ -28,7 +28,7 @@ public class CoolDown : MonoBehaviour
     /// </summary>
    public void StartLerping()
     {
-        animator.SetTrigger("active");
+       // animator.SetTrigger("active");
         _isLerping = true;
         _timeStartedLerping = Time.time;
     }
@@ -36,7 +36,7 @@ public class CoolDown : MonoBehaviour
     private void Start()
     {
         audioSource = GetComponent<AudioSource>();
-        animator = GetComponent<Animator>();
+       // animator = GetComponent<Animator>();
         image = GetComponent<Image>();
     }
 
@@ -61,7 +61,7 @@ public class CoolDown : MonoBehaviour
             if (percentageComplete >= 1.0f)
             {
                 audioSource.Play();
-                animator.SetTrigger("active");
+              //  animator.SetTrigger("active");
                 _isLerping = false;
             }
         }
