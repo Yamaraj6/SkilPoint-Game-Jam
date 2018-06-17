@@ -5,6 +5,7 @@ using UnityEngine.UI;
 
 public class CoolDown : MonoBehaviour
 {
+    AudioSource audioSource;
     Animator animator;
     Image image;
     public float timeTakenDuringLerp = 1f;
@@ -34,6 +35,7 @@ public class CoolDown : MonoBehaviour
 
     private void Start()
     {
+        audioSource = GetComponent<AudioSource>();
         animator = GetComponent<Animator>();
         image = GetComponent<Image>();
     }
@@ -59,6 +61,7 @@ public class CoolDown : MonoBehaviour
             Debug.Log(percentageComplete);
             if (percentageComplete >= 1.0f)
             {
+                audioSource.Play();
                 animator.SetTrigger("active");
                 _isLerping = false;
             }
