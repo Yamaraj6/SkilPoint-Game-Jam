@@ -9,7 +9,6 @@ TagManager:
   - Explosion
   - tree
   - Destructable
-  - leftupleg
   layers:
   - Default
   - TransparentFX

@@ -1,5 +1,4 @@
 ﻿using System.Collections;
-using SkilPoint_Game_Jam.Assets.Scripts;
 using UnityEngine;
 
 /*
@@ -75,14 +74,10 @@ public class HealthController : ResourceController
 			{
 				var rg = objectToRemove.AddComponent (typeof (Rigidbody)) as Rigidbody; //Destroy(objectToRemove);
 			}
-			if(objectToRemove.tag == "Enemy")
-			{
-				GameObject.FindGameObjectWithTag("Player")?.GetComponent<ScoreController>().AddToKillCount(1);
-			}	
 			else
 			{
 				Destroy(objectToRemove);
-			}
+			}	
 			//StartCoroutine (FadeOut (objectToRemove.GetComponent<SpriteRenderer> (), 1));
 		}
 	}
