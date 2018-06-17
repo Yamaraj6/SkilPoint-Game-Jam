@@ -478,7 +478,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1247756813433438}
   m_LocalRotation: {x: -0, y: -0.94982404, z: -0, w: 0.31278473}
-  m_LocalPosition: {x: 1.7867703, y: -0.029999971, z: 11.037298}
+  m_LocalPosition: {x: -1.359241, y: -0.35000002, z: -11.430469}
   m_LocalScale: {x: 2, y: 2, z: 2}
   m_Children:
   - {fileID: 4965355774198906}
@@ -28580,7 +28580,7 @@ MonoBehaviour:
   damageEnter:
     damage: 0
   damageStay:
-    damage: -7.5
+    damage: -2
   damageExit:
     damage: 0
   ignoreTag: Player
