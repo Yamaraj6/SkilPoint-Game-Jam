@@ -9,7 +9,7 @@ public class Teleport : Skill
     ParticleSystem end;
     Rigidbody rb;
     public AudioSource audioSource;
-    float force = 10000;
+    public float force = 10000;
 
     protected override void ActiveSkill()
     {
