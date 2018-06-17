@@ -62,7 +62,7 @@ GameObject:
   - component: {fileID: 114607967695276190}
   m_Layer: 0
   m_Name: Tree_1
-  m_TagString: tree
+  m_TagString: Explosion
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
