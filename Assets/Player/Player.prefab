@@ -1112,7 +1112,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1644810346353242}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -5.377993, y: 0.42220372, z: 2.34464}
+  m_LocalPosition: {x: -21.83, y: 0.48, z: 19.63}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 4656575806230064}
@@ -1371,6 +1371,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f27ba02a04649c74bb9192c903669dba, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  canvas: {fileID: 0}
   _sky: {fileID: 1577730338098376, guid: 0653fc449b532d946a90de8149490fe2, type: 2}
 --- !u!114 &114009010639097052
 MonoBehaviour:
@@ -1489,7 +1490,7 @@ MonoBehaviour:
   skillParticlesPrefab: {fileID: 1045362802684920, guid: c25f2356b2f4a7442a7b478f414c2d8b,
     type: 2}
   coolDown: {fileID: 0}
-  strength: 10000
+  strength: 13000
 --- !u!114 &114384279266321780
 MonoBehaviour:
   m_ObjectHideFlags: 1
