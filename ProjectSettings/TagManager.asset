@@ -8,6 +8,7 @@ TagManager:
   - Enemy
   - Explosion
   - tree
+  - Destructable
   layers:
   - Default
   - TransparentFX
