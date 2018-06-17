@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class PlayerDeathController : MonoBehaviour
 {
+    AudioClip clip; 
 	public GameObject _sky;
 	private bool _isDead = false;
 
