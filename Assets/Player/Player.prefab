@@ -1296,7 +1296,7 @@ MonoBehaviour:
   colliderRadius: 0.45
   slopeAmount: 0.2
   groundType: 
-  groundOffset: {x: 0, y: 0, z: 0}
+  groundOffset: {x: 0, y: 0.1, z: 0}
   isBusy: 0
 --- !u!114 &114307510199515842
 MonoBehaviour:
@@ -1313,7 +1313,7 @@ MonoBehaviour:
   skillSpawnPoint: {fileID: 4943767407483750}
   skillParticlesPrefab: {fileID: 1045362802684920, guid: c25f2356b2f4a7442a7b478f414c2d8b,
     type: 2}
-  coolDown: {fileID: 0}
+  coolDown: 2
   strength: 900
 --- !u!114 &114384279266321780
 MonoBehaviour:
@@ -1330,7 +1330,7 @@ MonoBehaviour:
   skillSpawnPoint: {fileID: 4943767407483750}
   skillParticlesPrefab: {fileID: 1022210032050866, guid: de70fba9b9ec0f24d8e714f27a304052,
     type: 2}
-  coolDown: {fileID: 0}
+  coolDown: 2
 --- !u!114 &114434997197632892
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1342,10 +1342,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 18f8f7f7b78c37a40a30f103ef6e5586, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  activeSkillKey: 49
-  skillSpawnPoint: {fileID: 4943767407483750}
-  skillParticlesPrefab: {fileID: 0}
-  coolDown: {fileID: 0}
   _sound: {fileID: 0}
   _seed: {fileID: 1755522466826906, guid: 38de4e737da15ce4ab77ddfb60c968f6, type: 2}
   _verticalPower: 5
@@ -1409,7 +1405,7 @@ MonoBehaviour:
   skillSpawnPoint: {fileID: 4943767407483750}
   skillParticlesPrefab: {fileID: 1003898510224590, guid: 991397b662e4e5f49926b40a252322bb,
     type: 2}
-  coolDown: {fileID: 0}
+  coolDown: 2
   radius: 5
   power: 1000
 --- !u!114 &114857144527251802

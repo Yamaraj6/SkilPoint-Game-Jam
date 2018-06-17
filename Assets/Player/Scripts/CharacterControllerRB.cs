@@ -50,7 +50,7 @@ public class CharacterControllerRB : MonoBehaviour
         RaycastHit hit;
         var origin = (transform.position + groundOffset);
 
-        if (Physics.SphereCast(origin, colliderRadius, -Vector3.up, out hit, 100f))
+        /*if (Physics.SphereCast(origin, colliderRadius, -Vector3.up, out hit, 100f))
         {
             distanceToGround = hit.distance - colliderRadius;
             if (distanceToGround < slopeAmount)
@@ -62,7 +62,8 @@ public class CharacterControllerRB : MonoBehaviour
             {
                 isGrounded = false;
             }
-        }
+        }*/
+        isGrounded = true;
     }
 
     void CheckForJumpingSpace()
