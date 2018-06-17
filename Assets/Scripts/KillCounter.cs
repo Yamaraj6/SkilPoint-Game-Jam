@@ -1,14 +1,17 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
+using System.Linq;
 using UnityEngine;
 
 public class KillCounter : MonoBehaviour
 {
-	public GameObject _player;
+	private GameObject _player;
     private bool _isDead = false;
 	public void Awake()
 	{
-	//	_player = GameObject.FindGameObjectWithTag("Player");
+		_player = GameObject.Find("Player");
+		var objs = GameObject.FindGameObjectsWithTag("Player");
+		objs.ToList().ForEach(f => Debug.Log(f.name));
 	}
 	public void OnDeath (HealthController.DamageData data)
 	{

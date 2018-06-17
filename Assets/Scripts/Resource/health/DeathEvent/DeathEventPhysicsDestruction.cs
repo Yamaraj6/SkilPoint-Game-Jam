@@ -14,10 +14,21 @@ public class DeathEventPhysicsDestruction : MonoBehaviour
         foreach(var it in destructedObjects)
         {
             var rb = it.AddComponent<Rigidbody>();
+            if(!rb)
+                continue;
+
             rb.drag = drag;
             var coll = it.AddComponent<SphereCollider>();
+            
+            if(!coll)
+                continue;
+
             coll.radius = collRadius;
             var remove = it.gameObject.AddComponent<RemoveAfterDelay>();
+
+            if(!remove)
+                continue;
+
             remove.timer = new Timer(removeTime);
 
             it.transform.parent = null;
