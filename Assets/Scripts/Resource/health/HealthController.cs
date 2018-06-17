@@ -69,22 +69,8 @@ public class HealthController : ResourceController
 	}
 	public void OnDeath (DamageData data)
 	{
-		if (objectToRemove && removeAfterDeath)
-		{
-			if(objectToRemove.tag == "tree")
-			{
-				var rg = objectToRemove.AddComponent (typeof (Rigidbody)) as Rigidbody; //Destroy(objectToRemove);
-			}
-			if(objectToRemove.tag == "Enemy")
-			{
-				GameObject.FindGameObjectWithTag("Player")?.GetComponent<ScoreController>().AddToKillCount(1);
-			}	
-			else
-			{
-				Destroy(objectToRemove);
-			}
-			//StartCoroutine (FadeOut (objectToRemove.GetComponent<SpriteRenderer> (), 1));
-		}
+        if(objectToRemove)
+            Destroy(objectToRemove);
 	}
 
 }

@@ -8,9 +8,8 @@ public class FreezeBall : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
-        if (other.gameObject.tag == "Enemy" || other.gameObject.tag == "Destructable" || other.gameObject.tag == "Tree")
+        if (other.gameObject.tag == "Enemy" || other.gameObject.tag == "Destructable" || other.gameObject.tag == "tree")
         {
-            gameObject.GetComponent<CharacterControllerAction>().ActiveSuperPower();
             Instantiate(collisionParticlePrefab, transform.position, Quaternion.identity);
             Destroy(gameObject,0.3f);
         }

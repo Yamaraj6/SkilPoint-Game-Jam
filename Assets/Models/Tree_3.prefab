@@ -25,7 +25,7 @@ GameObject:
   - component: {fileID: 114127172724419058}
   m_Layer: 0
   m_Name: Leaves
-  m_TagString: Untagged
+  m_TagString: tree
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 127
@@ -46,9 +46,10 @@ GameObject:
   - component: {fileID: 114484755370618150}
   - component: {fileID: 114575589210817286}
   - component: {fileID: 114866140627422528}
+  - component: {fileID: 114137275060250136}
   m_Layer: 0
   m_Name: Trunk
-  m_TagString: Untagged
+  m_TagString: tree
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 127
@@ -61,7 +62,6 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4433980749571552}
-  - component: {fileID: 114956830472050336}
   m_Layer: 0
   m_Name: Tree_3
   m_TagString: tree
@@ -76,7 +76,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1706831449602900}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -5.2544303, y: 2.23, z: -5.9462376}
+  m_LocalPosition: {x: 7.9504776, y: 0.42220372, z: 5.270263}
   m_LocalScale: {x: 0, y: 0, z: 0}
   m_Children:
   - {fileID: 4684131884321290}
@@ -4918,6 +4918,18 @@ MonoBehaviour:
   m_selectedFaces: 
   m_SelectedEdges: []
   m_selectedTriangles: 
+--- !u!114 &114137275060250136
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1434132737740144}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c849648b6ac5a3948a2fd76c2f5dabb6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  main: {fileID: 1706831449602900}
 --- !u!114 &114210308750444716
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -6947,19 +6959,8 @@ MonoBehaviour:
   actual: 100
   max: 100
   regeneration: 0
-  removeAfterDeath: 1
+  removeAfterDeath: 0
   objectToRemove: {fileID: 1706831449602900}
---- !u!114 &114956830472050336
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1706831449602900}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c849648b6ac5a3948a2fd76c2f5dabb6, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!136 &136061689819969192
 CapsuleCollider:
   m_ObjectHideFlags: 1

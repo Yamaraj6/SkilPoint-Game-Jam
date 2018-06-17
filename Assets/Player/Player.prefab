@@ -1314,7 +1314,7 @@ MonoBehaviour:
   skillParticlesPrefab: {fileID: 1045362802684920, guid: c25f2356b2f4a7442a7b478f414c2d8b,
     type: 2}
   coolDown: {fileID: 0}
-  strength: 100
+  strength: 900
 --- !u!114 &114384279266321780
 MonoBehaviour:
   m_ObjectHideFlags: 1

@@ -8,7 +8,6 @@ public class MineSkill : Skill
 
     protected override void ActiveSkill()
     {
-        gameObject.GetComponent<CharacterControllerAction>().ThrowObject();
         GameObject spawned = Instantiate(skillParticlesPrefab, skillSpawnPoint.position, transform.rotation);
 
         spawned.GetComponent<Rigidbody>().AddForce(transform.forward * strength);
