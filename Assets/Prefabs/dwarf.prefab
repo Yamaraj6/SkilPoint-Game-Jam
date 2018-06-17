@@ -808,8 +808,8 @@ Rigidbody:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1247756813433438}
   serializedVersion: 2
-  m_Mass: 6
-  m_Drag: 3
+  m_Mass: 2
+  m_Drag: 4
   m_AngularDrag: 0.05
   m_UseGravity: 1
   m_IsKinematic: 0
@@ -872,7 +872,7 @@ MonoBehaviour:
   nextBehaviour: {fileID: 0}
   aim: {fileID: 114783558732831448}
   stopDistance: 3
-  movementSpeed: 1000
+  movementSpeed: 700
 --- !u!114 &114108717868221506
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -885,8 +885,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   type: 
-  actual: 100
-  max: 100
+  actual: 30
+  max: 30
   regeneration: 0
   removeAfterDeath: 1
   objectToRemove: {fileID: 0}
@@ -945,7 +945,7 @@ MonoBehaviour:
   nextBehaviour: {fileID: 0}
   aim: {fileID: 114677695493218456}
   stopDistance: 2
-  movementSpeed: 1000
+  movementSpeed: 700
 --- !u!114 &114163941673356904
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -15543,7 +15543,7 @@ MonoBehaviour:
   nextBehaviour: {fileID: 0}
   aim: {fileID: 114792383775795592}
   stopDistance: 3
-  movementSpeed: 1000
+  movementSpeed: 700
 --- !u!114 &114480794909284720
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -15670,10 +15670,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   timerPerformSearch:
     cd: 1
-  searchDistance: 20
-  nRays: 15
+  searchDistance: 50
+  nRays: 17
   coneRadius: 170
-  memoryTime: 15
+  memoryTime: 20
 --- !u!114 &114677695493218456
 MonoBehaviour:
   m_ObjectHideFlags: 1
