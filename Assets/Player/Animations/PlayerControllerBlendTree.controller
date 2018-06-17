@@ -503,7 +503,7 @@ AnimatorStateTransition:
     m_ConditionEvent: Sneaking
     m_EventTreshold: 0
   m_DstStateMachine: {fileID: 0}
-  m_DstState: {fileID: 1102903622192111608}
+  m_DstState: {fileID: 0}
   m_Solo: 0
   m_Mute: 0
   m_IsExit: 0
@@ -602,7 +602,7 @@ AnimatorStateTransition:
     m_ConditionEvent: Sneaking
     m_EventTreshold: 0
   m_DstStateMachine: {fileID: 0}
-  m_DstState: {fileID: 1102903622192111608}
+  m_DstState: {fileID: 0}
   m_Solo: 0
   m_Mute: 0
   m_IsExit: 0
@@ -629,7 +629,7 @@ AnimatorStateTransition:
     m_ConditionEvent: Sneaking
     m_EventTreshold: 0
   m_DstStateMachine: {fileID: 0}
-  m_DstState: {fileID: 1102903622192111608}
+  m_DstState: {fileID: 0}
   m_Solo: 0
   m_Mute: 0
   m_IsExit: 0
@@ -674,7 +674,7 @@ AnimatorStateTransition:
   m_Name: 
   m_Conditions: []
   m_DstStateMachine: {fileID: 0}
-  m_DstState: {fileID: 1102903622192111608}
+  m_DstState: {fileID: 0}
   m_Solo: 0
   m_Mute: 0
   m_IsExit: 0
@@ -1189,7 +1189,7 @@ AnimatorStateMachine:
   m_ChildStates:
   - serializedVersion: 1
     m_State: {fileID: 1102456537317713956}
-    m_Position: {x: 420, y: 156, z: 0}
+    m_Position: {x: 420, y: 216, z: 0}
   m_ChildStateMachines: []
   m_AnyStateTransitions: []
   m_EntryTransitions: []
@@ -1270,6 +1270,9 @@ AnimatorStateMachine:
   - {fileID: 1101255319326470138}
   m_EntryTransitions: []
   m_StateMachineTransitions:
+  - first: {fileID: 1107805512345752830}
+    second:
+    - {fileID: 1109374469615094996}
   - first: {fileID: 1107201451991262908}
     second:
     - {fileID: 1109445775423239124}
@@ -1279,9 +1282,6 @@ AnimatorStateMachine:
   - first: {fileID: 1107759283694074090}
     second:
     - {fileID: 1109761277710861952}
-  - first: {fileID: 1107805512345752830}
-    second:
-    - {fileID: 1109374469615094996}
   m_StateMachineBehaviours: []
   m_AnyStatePosition: {x: 60, y: -24, z: 0}
   m_EntryPosition: {x: 60, y: 12, z: 0}

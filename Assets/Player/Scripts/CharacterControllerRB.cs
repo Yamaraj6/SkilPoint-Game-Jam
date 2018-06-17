@@ -16,7 +16,7 @@ public class CharacterControllerRB : MonoBehaviour
     //Groud detection.
     public float distanceToGround;
     public float distanceToFloor;
-    public bool isGrounded = false;
+    public bool isGrounded = true;
     public bool hasJumpingSpace;
     public float colliderRadius = 0.45f;
     public float slopeAmount = 0.2f;

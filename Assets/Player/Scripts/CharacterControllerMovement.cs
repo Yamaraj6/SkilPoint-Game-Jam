@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityStandardAssets.CrossPlatformInput;
 
+[RequireComponent(typeof(CharacterControllerRB))]
 public class CharacterControllerMovement : MonoBehaviour
 {
 	//Components.
