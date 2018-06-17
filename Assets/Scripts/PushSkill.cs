@@ -19,10 +19,7 @@ public class PushSkill : Skill
             Rigidbody rb = hit.GetComponent<Rigidbody>();
 
             if (rb != null && rb.gameObject.tag != "Player")
-            {
-                gameObject.GetComponent<CharacterControllerAction>().ActiveSuperPower();
                 rb.AddExplosionForce(power, explosionPos, radius, 3.0F);
-            }
         }
     }
 }
