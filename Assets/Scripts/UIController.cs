@@ -5,13 +5,16 @@ using UnityEngine.Experimental;
 using UnityEngine.UI;
 using System.Linq;
 using UnityEngine.SceneManagement;
+using SkilPoint_Game_Jam.Assets.Scripts;
 
 public class UIController : MonoBehaviour
 {
     public int MaxPoints = 10;
-    public int MaxTrees = 1000;
-    public PlayerStatisticsController playerStatisticsController;
-    public PlayerTimeCounter playerTimeCounter;
+    public int MaxTrees = 1;
+    public GameObject Player;
+    private PlayerStatisticsController playerStatisticsController;
+    private PlayerTimeCounter playerTimeCounter;
+    private LooseChecker looseChecker;
     public Image imagePoints;
     public Text txtPoints;
     public Image imageTrees;
@@ -19,18 +22,16 @@ public class UIController : MonoBehaviour
     // Use this for initialization
     void Start()
     {
-        if (playerStatisticsController == null)
+        if (Player == null)
         {
-            playerStatisticsController = GameObject
-                .FindGameObjectWithTag("Player")
-                .GetComponent<PlayerStatisticsController>();
+            Player = GameObject
+                .FindGameObjectWithTag("Player");
         }
-        if (playerTimeCounter == null)
-        {
-            playerTimeCounter = GameObject
-                .FindGameObjectWithTag("Player")
-                .GetComponent<PlayerTimeCounter>();
-        }
+
+        playerStatisticsController = Player.GetComponent<PlayerStatisticsController>();
+        playerTimeCounter = Player.GetComponent<PlayerTimeCounter>();
+        looseChecker = Player.GetComponent<LooseChecker>();
+        
         StartCoroutine(WaitForTrees());
     }
 
@@ -45,6 +46,7 @@ public class UIController : MonoBehaviour
     {
         CountPoints();
         CountTrees();
+        RestartLevel();
     }
 
     void CountPoints()
@@ -57,11 +59,14 @@ public class UIController : MonoBehaviour
     void CountTrees()
     {
         var trees = GameObject.FindGameObjectsWithTag("tree").Count();
-        imageTrees.fillAmount = (float)trees / (float)MaxTrees;
+        imageTrees.fillAmount = (float)trees / (float)(MaxTrees- looseChecker._treesToLoose);
     }
 
     public void RestartLevel()
     {
-        SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+        if (Input.GetKeyDown(KeyCode.Space))
+        {
+            SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+        }
     }
 }

@@ -6,7 +6,7 @@ namespace SkilPoint_Game_Jam.Assets.Scripts
 {
 	public class LooseChecker : MonoBehaviour
 	{
-		[SerializeField] private int _treesToLoose = 5;
+		public int _treesToLoose = 5;
 		private float _timer = 0;
 		private bool _isDead = false;
 
