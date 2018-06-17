@@ -1,4 +1,5 @@
 ﻿using System.Collections;
+using SkilPoint_Game_Jam.Assets.Scripts;
 using UnityEngine;
 
 /*
@@ -68,18 +69,8 @@ public class HealthController : ResourceController
 	}
 	public void OnDeath (DamageData data)
 	{
-		if (objectToRemove && removeAfterDeath)
-		{
-			if(objectToRemove.tag == "tree")
-			{
-				var rg = objectToRemove.AddComponent (typeof (Rigidbody)) as Rigidbody; //Destroy(objectToRemove);
-			}
-			else
-			{
-				Destroy(objectToRemove);
-			}	
-			//StartCoroutine (FadeOut (objectToRemove.GetComponent<SpriteRenderer> (), 1));
-		}
+        if(objectToRemove)
+            Destroy(objectToRemove);
 	}
 
 }

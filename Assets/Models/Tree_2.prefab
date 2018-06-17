@@ -27,9 +27,10 @@ GameObject:
   - component: {fileID: 114130469215710328}
   - component: {fileID: 114789762687546250}
   - component: {fileID: 114938677181360680}
+  - component: {fileID: 114555064325237784}
   m_Layer: 0
   m_Name: Trunk
-  m_TagString: Untagged
+  m_TagString: tree
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 127
@@ -49,7 +50,7 @@ GameObject:
   - component: {fileID: 135563059977906318}
   m_Layer: 0
   m_Name: Leaves
-  m_TagString: Untagged
+  m_TagString: tree
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 127
@@ -62,7 +63,6 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4925538658161184}
-  - component: {fileID: 114848532720449306}
   m_Layer: 0
   m_Name: Tree_2
   m_TagString: tree
@@ -103,7 +103,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1915919596698884}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -2.6873622, y: -3.5, z: 6.9332657}
+  m_LocalPosition: {x: 5.8172436, y: 0.42220372, z: 6.837655}
   m_LocalScale: {x: 0, y: 0, z: 0}
   m_Children:
   - {fileID: 4082067506093856}
@@ -222,7 +222,7 @@ MonoBehaviour:
   actual: 100
   max: 100
   regeneration: 0
-  removeAfterDeath: 1
+  removeAfterDeath: 0
   objectToRemove: {fileID: 1915919596698884}
 --- !u!114 &114505408041564654
 MonoBehaviour:
@@ -3910,6 +3910,18 @@ MonoBehaviour:
   m_selectedFaces: 
   m_SelectedEdges: []
   m_selectedTriangles: 
+--- !u!114 &114555064325237784
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1270458580405642}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c849648b6ac5a3948a2fd76c2f5dabb6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  main: {fileID: 1915919596698884}
 --- !u!114 &114789762687546250
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -3928,17 +3940,6 @@ MonoBehaviour:
   fraction: {fileID: 114938677181360680}
   health: {fileID: 0}
   mind: {fileID: 0}
---- !u!114 &114848532720449306
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1915919596698884}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c849648b6ac5a3948a2fd76c2f5dabb6, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!114 &114881241779502134
 MonoBehaviour:
   m_ObjectHideFlags: 1
